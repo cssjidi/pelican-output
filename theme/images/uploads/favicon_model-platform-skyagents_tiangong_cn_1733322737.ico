@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="乐享你的 SkyAgents，让创意无处不在">
+    <link rel="icon" href="/favicon.ico" />
+    <link rel="stylesheet" href="/app-loading.css" />
+    <title>SkyAgents</title>
+    <script type="module" crossorigin src="/static/index-a4da2751.js"></script>
+    <link rel="modulepreload" crossorigin href="/static/vue-6b40d5ad.js">
+    <link rel="modulepreload" crossorigin href="/static/element-5f33cf5c.js">
+    <link rel="modulepreload" crossorigin href="/static/vxe-222c4d12.js">
+    <link rel="stylesheet" href="/static/index-38706e88.css">
+  </head>
+  <body>
+    <div id="app">
+      <div id="app-loading"></div>
+    </div>
+    
+  </body>
+</html>

@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>
+    啤啤熊 -
+    为用户提供全面AI应用服务的平台  </title>
+  <link rel="icon" href="https://src.biebiexiong.com/saas/portal/202404/08/181129lq5t1jtblysqt3ty.png" type="image/png" sizes="16x16">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description"
+    content="啤啤熊软件是一个为用户提供全面AI应用服务的平台。这款软件专注于提供高效、易于使用的AI工具和资源，旨在满足广泛的AI需求。无论是个人用户还是企业，都可以通过这个平台轻松接触和使用先进的AI技术。">
+  <meta name="keywords"
+    content="AI应用,算力服务,AI镜像,AI模型,用户友好界面,灵活性和可扩展性,高效的资源利用,安全和隐私保护,数据处理,机器学习,人工智能,云端算力,预训练模型库,技术水平,创新与目标实现">
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900%7COpen+Sans:300,400,500"
+    rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/animate.css"> <!-- Resource style -->
+  <link rel="stylesheet" href="assets/css/owl.carousel.css">
+  <link rel="stylesheet" href="assets/css/owl.theme.css">
+  <link rel="stylesheet" href="assets/css/ionicons.min.css"> <!-- Resource style -->
+  <link href="assets/css/stylesheet.css" rel="stylesheet" type="text/css" media="all" />
+</head>
+
+<body class="boxed-layout">
+  <div class="wrapper">
+    <!-- Navbar Section -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top wt-border">
+      <div class="container">
+        <img src="https://src.biebiexiong.com/saas/portal/202404/08/181129lq5t1jtblysqt3ty.png" height="28" />
+        <a class="navbar-brand" href="/">
+          啤啤熊.
+        </a>
+        <span class="navbar-brand-tip">提供全面AI应用服务的平台</span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto navbar-right">
+            <li class="nav-item"><a class="nav-link js-scroll-trigger"
+                href="https://cloud.biebiexiong.com/#/gpumarket/hosts" target="_blank">算力市场</a></li>
+            <li class="nav-item"><a class="nav-link js-scroll-trigger"
+                href="https://cloud.biebiexiong.com/#/gpumarket/images" target="_blank">镜像市场</a></li>
+            <li class="nav-item"><a class="nav-link js-scroll-trigger"
+                href="https://cloud.biebiexiong.com/#/gpumarket/models" target="_blank">模型市场</a></li>
+            <li class="nav-item"><a class="nav-link js-scroll-trigger"
+                href="https://cloud.biebiexiong.com/#/gpumarket/datasets" target="_blank">数据集</a></li>
+            <li class="nav-item"><a class="nav-link js-scroll-trigger"
+                href="https://cloud.biebiexiong.com/#/about/about">关于我们</a></li>
+                        <li><a class="btn-nav js-scroll-trigger" href="#" onclick="javascript:showDownloadHint();">客户端下载</a></li>
+                      </ul>
+        </div>
+      </div>
+    </nav><!-- Navbar End -->
+
+
+    <div id="main" class="main"><div class="home">
+  <div class="container">
+    <div class="hero-content wow fadeIn">
+      <div class="flex-split">
+        <div class="container">
+          <div class="flex-inner flex-inverted align-center">
+            <div class="f-image f-image-inverted">
+              <img class="img-fluid" src="assets/images/faceing.png" alt="Feature">
+            </div>
+            <div class="f-text">
+              <div class="left-content">
+                <h4>全自动，零门槛，高效</h4>
+                <h2>一键安装AI开发环境</h2>
+                <h2>轻松部署AI应用服务</h2>
+                                <a class="btn-action btn-outline nav-link js-scroll-trigger" href="#" onclick="javascript:showMyModal_ubuntu();">Ubuntu部署</a>
+                 <a class="btn-action" href="#" onclick="javascript:showDownloadHint();">Windows下载 </a>
+                              </div>
+              <p class="condition_txt">免费使用，无需支付，部署环境原来如此简单</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div><!-- Hero End -->
+
+<!--- About Section -->
+<div class="yd-cat">
+  <div class="container">
+    <div class="cat-inner">
+      <div class="cat-flex">
+        <div class="cat2">
+          <h4>我们有。。。</h4>
+          <h2>镜像，模型，数据集</h2>
+          <p> 资源经过了严格筛选，过滤，质量高，种类丰富，新鲜热门，所见即所得，随心所用</p>
+        </div>
+      </div>
+      <div class="cat-flex">
+        <div class="cat1">
+          <div class="cat-item clr1">
+            <div class="cat-icon">
+              <div class="cat-img">
+                <img src="assets/icons/ubuntu.svg" width="80" alt="Feature">
+              </div>
+            </div>
+            <div class="cat-text">
+              <h3>镜像</h3>
+              <p>经过工程师搭配完整框架，调优，开箱即用</p>
+            </div>
+          </div>
+        </div>
+        <div class="cat1">
+          <div class="cat-item clr2">
+            <div class="cat-icon">
+              <div class="cat-img">
+                <img src="assets/icons/model.svg" width="80" alt="Feature">
+              </div>
+            </div>
+            <div class="cat-text">
+              <h3>模型</h3>
+              <p>紧追新鲜热门开源模型，轻松部署、集成</p>
+            </div>
+          </div>
+        </div>
+        <div class="cat1">
+          <div class="cat-item clr3">
+            <div class="cat-icon">
+              <div class="cat-img">
+                <img src="assets/icons/dataset.svg" width="80" alt="Feature">
+              </div>
+            </div>
+            <div class="cat-text">
+              <h3>数据集</h3>
+              <p>多样，海量，质量高，帮助建立更准确、可靠且具有泛化能力的AI模型</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Features Section -->
+<div id="features" class="ft-flex">
+  <div class="container">
+    <div class="ft-inner align-center">
+      <div class="ft-image wow">
+        <img class="img-fluid" src="assets/images/one_key.png" alt="Feature">
+      </div>
+      <div class="ft-text">
+        <div class="ft-content">
+          <h2>一键安装</h2>
+          <p>下载客户端后，来到算力中心=>本机设备=>点击“初始化配置”，即全自动完成AI开发环境部署，无需人工干预。</p>
+          <ul>
+            <li><img src="assets/icons/tick.svg" alt="Tick"> 无需干预，全自动完成安装 </li>
+            <li><img src="assets/icons/tick.svg" alt="Tick"> 环境可卸载，可重置 </li>
+            <li><img src="assets/icons/tick.svg" alt="Tick"> 支持远程初始化，重置</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="ft-inner ft-inverted align-center">
+      <div class="ft-image f-image-inverted">
+        <img class="img-fluid" src="assets/images/yuancheng.png" alt="Feature">
+      </div>
+      <div class="ft-text">
+        <div class="ft-content">
+          <h2>集群管理</h2>
+          <p> 支持多设备统一纳管，集群化管理。可通过浏览器，客户端实现远程管理设备</p>
+          <ul>
+            <li><img src="assets/icons/tick.svg" alt="Tick"> 一个账户多设备，统一纳管 </li>
+            <li><img src="assets/icons/tick.svg" alt="Tick"> 设备管理好帮手 </li>
+            <li><img src="assets/icons/tick.svg" alt="Tick"> 多端支持，工作随时随地 </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="ft-inner ft-inner-mid align-center">
+      <div class="ft-image">
+        <img class="img-fluid" src="assets/images/functions.png" alt="Feature">
+      </div>
+      <div class="ft-text">
+        <div class="ft-content">
+          <h2>功能丰富</h2>
+          <p>基本涵盖AI服务的基本框架，镜像，模型，数据集的自动部署，只需点击按钮创建对应容器，拉取相应的模型，即可轻松获得一个AI训练/推理的环境</p>
+          <ul>
+            <li><img src="assets/icons/tick.svg" alt="Tick"> 一键生成容器，可使用平台公共镜像，也可使用私人镜像 </li>
+            <li><img src="assets/icons/tick.svg" alt="Tick"> 一键获取并应用模型，只需提供一个模型地址，帮您下载安排的妥妥</li>
+            <li><img src="assets/icons/tick.svg" alt="Tick"> 一键FRP穿透，Jupyter协助，服务就在身边</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Counter Section -->
+<div class="yd-stats" id="link">
+  <div class="container-s">
+    <div class="row text-center">
+
+      <div class="container mt-4">
+                <!--h2>友情链接：</h2>
+                <br-->
+        <div class="row">
+          <div class="col"><a href="https://xiazai.zol.com.cn/" target="_blank">ZOL软件下载</a></div>
+          <div class="col"><a href="https://mydown.yesky.com/" target="_blank">天极下载</a></div>
+          <div class="col"><a href="https://www.onlinedown.net/" target="_blank">华军软件园</a></div>
+          <div class="col"><a href="https://www.pc6.com/" target="_blank">PC6软件下载</a></div>
+          <div class="col"><a href="https://www.mydown.com/" target="_blank">极速下载</a></div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col"><a href="http://www.downza.cn/" target="_blank">下载之家</a></div>
+          <div class="col"><a href="http://www.skycn.com/" target="_blank">天空下载网</a></div>
+          <div class="col"><a href="https://www.duote.com/" target="_blank">多特软件站</a></div>
+          <div class="col"><a href="https://hao.logosc.cn/" target="_blank">神器集</a></div>
+          <div class="col"><a href="https://gpt.changjing.com.cn/" target="_blank">AI应用商店</a></div>
+        </div>
+      </div>
+          </div>
+  </div>
+</div><!-- Counter Section Ends -->
+
+
+
+        <!-- Footer -->
+        <div class="footer">
+            <div class="container">
+              <div class="row text-center">
+                <div class="col-lg-2 col-md-3 col-sm-12">
+                  <div class="footer-logo">
+                    <h2>啤啤熊.</h2>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                  <ul class="footer-menu">
+                    
+                    <li>
+                      <a href="https://beian.mps.gov.cn/#/query/webSearch" target="_blank">粤公网安备44010402003208</a>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                                        <a href="https://beian.miit.gov.cn" target="_blank">Biebiexiong.Com备案号:粤ICP备2023133196号-1</a></li>
+                    <!-- <li><a href="#main">关于</a> </li>
+                    <li><a href="#main">隐私</a> </li>
+                    <li><a href="#main">条款</a> </li>
+                    <li><a href="#main">联系</a> </li> -->
+                  </ul>
+                </div>
+                <div class="col-lg-4 col-md-3 col-sm-12">
+                  <div class="footer-links">
+                    <ul>
+                      <li><a href="#main"> <img class="img-fluid" src="assets/icons/i1.png" alt="Icon"> </a> </li>
+                      <li><a href="#main"> <img class="img-fluid" src="assets/icons/i2.png" alt="Icon"> </a> </li>
+                      <li><a href="#main"> <img class="img-fluid" src="assets/icons/i3.png" alt="Icon"> </a> </li>
+                      <li><a href="#main"> <img class="img-fluid" src="assets/icons/i4.png" alt="Icon"> </a> </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <!-- Scroll To Top -->
+                <a id="back-top" class="back-to-top js-scroll-trigger" href="#main"></a>
+            <!-- Scroll To Top Ends-->
+            </div>
+          </div>
+        </div> <!-- Main -->
+      </div><!-- Wrapper -->
+  
+
+              <!-- 模态框（Modal） -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel">下载提示</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+              </div>
+              <div class="modal-body">
+                <p class="font-weight-normal" style="text-indent: 2em;line-height:24px;">尊贵的客人，您听我小熊熊说：</p>
+                <p class="font-weight-normal" style="text-indent: 2em;line-height:24px;">
+                  在软件使用过程中，Windows系统可能误报，提示存在安全威胁，并主动删除wei.exe的主程序，导致软件无法使用。</p>
+                <p class="font-weight-normal" style="text-indent: 2em;line-height:24px;">
+                  啤啤熊在此声明，啤啤熊客户端软件已经通过并获得微软官方认证的软件签名，从官网www.biebiexiong.com下载的客户端软件，没有病毒，不是病毒，请放心使用。</p>
+                <p class="font-weight-normal" style="text-indent: 2em;line-height:24px;">
+                  如出现误删现象，请在windows安全中心，将啤啤熊的主程序wei.exe添加到排除项，具体方法看<a
+                    href="https://support.microsoft.com/zh-cn/windows/%E5%B0%86%E6%8E%92%E9%99%A4%E9%A1%B9%E6%B7%BB%E5%8A%A0%E5%88%B0-windows-%E5%AE%89%E5%85%A8%E4%B8%AD%E5%BF%83-811816c0-4dfd-af4a-47e4-c301afe13b26"
+                    target="_blank">微软官方教程</a>。</p>
+                <p class="font-weight-normal" style="text-indent: 2em;line-height:24px;">小熊熊告退，您放心下载吧</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-primary" type="success">继续下载</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+              </div>
+            </div><!-- /.modal-content -->
+          </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+    
+
+
+        <!-- 模态框（Modal） -->
+        <div class="modal fade" id="myModal_ubuntu" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel">安装提示</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+              </div>
+              <div class="modal-body">
+                <p class="font-weight-normal" style="text-indent: 2em;line-height:24px;">Linux的安装通过2步</p>
+                <p class="font-weight-normal" style="text-indent: 2em;line-height:24px;">1、登录用户中心，来到 “我的” 页面，在“Linux安装专属指令”标签下的 点击复制命令；</p>
+                <p class="font-weight-normal" style="text-indent: 2em;line-height:24px;">
+                  2、SSH登录您的linux主机，在终端粘贴刚才复制的命令，回车。等待执行完毕。完成以后过1分钟，设备出现在您账号下“我的设备”列表里；</p>
+                    <p class="font-weight-normal" style="text-indent: 2em;line-height:24px;"><a
+                        href="https://doc.biebiexiong.com/web/#/690863419/179175900"
+                        target="_blank">如果需要帮助，点击这里看教程</a>。</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-primary" type="success">前往用户中心获取专属链接</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+              </div>
+            </div><!-- /.modal-content -->
+          </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+
+
+
+      
+      <!-- Jquery and Js Plugins -->
+      <script src="assets/js/jquery-2.1.1.js"></script>
+      <script src="assets/js/popper.min.js"></script>
+      <script src="assets/js/bootstrap.min.js"></script>
+      <script src="assets/js/jquery.validate.min.js"></script>
+      <script src="assets/js/plugins.js"></script>
+      <script src="assets/js/custom.js"></script>
+    
+            <script>
+
+        function showMyModal_ubuntu() {
+          $('#myModal_ubuntu').modal('show');
+        }
+  
+        // 当确认按钮被点击
+        $('#myModal_ubuntu').on('click', '.btn-primary', function () {
+          // 执行确认操作
+          window.location.href = 'https://cloud.biebiexiong.com/#/setting/personalCenter';
+          $('#myModal_ubuntu').modal('hide');
+        });
+  
+        // 当取消按钮被点击
+        $('#myModal_ubuntu').on('click', '.btn-default', function () {
+          // 执行取消操作
+          $('#myModal_ubuntu').modal('hide');
+        });
+
+
+
+        function showDownloadHint() {
+          $('#myModal').modal('show');
+        }
+  
+        // 当确认按钮被点击
+        $('#myModal').on('click', '.btn-primary', function () {
+          // 执行确认操作
+          window.location.href = 'https://src.biebiexiong.com/download/release/wei/windows/biebiexiong.rar';
+          $('#myModal').modal('hide');
+        });
+  
+        // 当取消按钮被点击
+        $('#myModal').on('click', '.btn-default', function () {
+          // 执行取消操作
+          $('#myModal').modal('hide');
+        });
+      </script>
+  
+          </body>
+  </html>
+  

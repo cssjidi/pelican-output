@@ -1,0 +1,41 @@
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="0 0 180 60" preserveAspectRatio="xMidYMid meet" color-interpolation-filters="sRGB">
+    <defs>
+        <linearGradient id="watermark" x1="0%" y1="0%" x2="100%" y2="100%">
+            <!-- Define your gradient colors here -->
+        </linearGradient>
+    </defs>
+    <rect x="0" y="0" width="180" height="60" fill="url(#watermark)" fill-opacity="1" class="watermarklayer"></rect>
+    <g fill="#333" class="icon-text-wrapper icon-svg-group iconsvg" transform="translate(0,0)">
+        <g class="iconsvg-imagesvg" transform="translate(0,1.3350715637207031)">
+            <g>
+                <rect fill="#333" fill-opacity="0" stroke-width="2" x="0" y="0" width="60" height="55.90235721606261" class="image-rect"></rect>
+                <svg x="0" y="0" width="60" height="55.90235721606261" filtersec="colorsb6357082375" class="image-svg-svg primary" style="overflow: visible;">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -4.9737981338811646e-14 107.33003234863281 100">
+                        <path d="M34.34 35.6H7a7 7 0 0 0-7 7v29.19a7 7 0 0 0 7 7h27.34a7 7 0 0 0 7-7V42.61a7 7 0 0 0-7-7.01z" fill="#983690"></path>
+                        <path d="M91.53 0H64.2a7 7 0 0 0-7 7v29.19a7 7 0 0 0 7 7h27.33a7 7 0 0 0 7-7V7a7 7 0 0 0-7-7z" fill="#4e4cc1" opacity=".8"></path>
+                        <path d="M74.28 26.21H33.81a10.43 10.43 0 0 0-10.35 9.39c0 .32-.05.66-.05 1v43.2a10.43 10.43 0 0 0 10.4 10.4h40.47a10.43 10.43 0 0 0 10.39-10.4V36.59a10.42 10.42 0 0 0-10.39-10.38z" fill="#451d7d" opacity=".8"></path>
+                        <path d="M100.33 56.79H73a7 7 0 0 0-7 7V93a7 7 0 0 0 7 7h27.33a7 7 0 0 0 7-7V63.81a7 7 0 0 0-7-7.02z" fill="#78d65e" opacity=".8"></path>
+                    </svg>
+                </svg>
+            </g>
+        </g>
+        <g transform="translate(67,0)" fill="#ffffff">
+            <g data-gra="path-name" fill-rule="" class="tp-name iconsvg-namesvg" transform="translate(0,0)">
+                <g transform="scale(1)">
+                    <g>
+                        <path d="M13.65-43.36L13.65 0 4.42 0 4.42-43.36 13.65-43.36ZM30.55-25.55L30.55-25.55 45.17-25.55Q50.12-25.55 52.49-25.03 54.86-24.51 56.48-23.14L56.48-23.14Q60.71-19.7 60.71-13.46L60.71-13.46Q60.71-6.04 54.34-2.15L54.34-2.15Q50.38 0.26 42.12 0.26L42.12 0.26Q36.2 0.26 32.63-0.78 29.05-1.82 26.45-4.23L26.45-4.23Q23.27-7.28 21.64-12.29L21.64-12.29Q20.21-16.96 20.21-21.71L20.21-21.71Q20.21-28.99 23.2-34.84L23.2-34.84Q26.26-40.76 32.37-42.38L32.37-42.38Q35.75-43.36 42.38-43.36L42.38-43.36 58.37-43.36 58.37-35.62 45.17-35.62Q36.47-35.75 33.87-33.93L33.87-33.93Q32.3-32.83 31.46-30.65 30.62-28.47 30.55-25.55ZM43.62-17.81L30.55-17.81Q30.62-13.07 32.44-10.34L32.44-10.34Q33.67-8.45 35.81-7.74 37.96-7.02 42.25-7.02L42.25-7.02Q44.85-7.02 46.34-7.35 47.84-7.67 48.88-8.45L48.88-8.45Q50.57-9.75 50.57-12.48L50.57-12.48Q50.57-15.34 48.49-16.84L48.49-16.84Q47.13-17.81 43.62-17.81L43.62-17.81ZM64.67-43.36L102.44-43.36 102.44-35.62 76.18 0 64.87 0 92.11-35.62 64.67-35.62 64.67-43.36Z" transform="translate(-4.420000076293945, 43.36000061035156)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+        <g data-gra="path-slogan" fill-rule="" class="tp-slogan iconsvg-slogansvg" fill="#333" transform="translate(5,49.62000274658203)">
+            <rect x="0" height="1" y="3.9750008583068848" width="32.710001945495605"></rect>
+            <rect height="1" y="3.9750008583068848" width="32.710001945495605" x="55.31000232696533"></rect>
+<g transform="translate(35.710001945495605,0)">
+<g transform="scale(1)">
+<path d="M1.55-8.58L3.98-1.27L6.47-8.58L7.78-8.58L4.64 0L3.38 0L0.23-8.58L1.55-8.58ZM15.66-4.27L15.66-4.27Q15.47-7.64 12.66-7.83L12.66-7.83Q9.80-7.69 9.66-4.27L9.66-4.27Q9.80-0.94 12.66-0.80L12.66-0.80Q15.47-0.98 15.66-4.27ZM16.83-4.27L16.83-4.27Q16.55 0 12.66 0.14L12.66 0.14Q8.72 0 8.44-4.27L8.44-4.27Q8.67-8.72 12.66-8.81L12.66-8.81Q16.55-8.67 16.83-4.27Z" transform="translate(-0.234375, 8.8125)"></path>
+</g>
+</g>
+</g>
+</g>
+</svg>

@@ -1,0 +1,187 @@
+<!DOCTYPE html><html><head><link rel="prefetch" href="https://gw.alipayobjects.com/render/p/yuyan/180020010001258565/umi.c757d8a1.js" as="script" crossorigin="anonymous"><link rel="prefetch" href="https://gw.alipayobjects.com/as/g/component/tracert/4.6.8/index.js" as="script"><link rel="prefetch" href="https://gw.alipayobjects.com/render/p/yuyan/180020010001258565/umi.aff6baa2.css" as="style"><script type="tern-app-html" data-yuyan-id="180020010001258565">%3C!DOCTYPE%20html%3E%3Chtml%3E%3Chead%3E%3Cscript%3Ewindow.injectInfo%20%3D%20%7B%20env%3A%20%22PROD%22%20%7D%3B%3C%2Fscript%3E%3Cscript%3Ewindow.publicPath%20%3D%20%22https%3A%2F%2Fgw.alipayobjects.com%2Frender%2Fp%2Fyuyan%2F180020010001258565%2F%22%3B%3C%2Fscript%3E%3Cscript%3E!function()%7Bvar%20e%3Dwindow%3Bfunction%20n(n)%7Bif(e.g_monitor%26%26e.g_monitor.events)%7Bvar%20t%3De.g_monitor.events%3Bt.length%3C20%26%26t.push(n)%7D%7De.g_monitor%3De.g_monitor%7C%7C%7Blistener%3A%7B%7D%2Cevents%3A%5B%5D%7D%3Bvar%20r%3De.g_monitor.listener%3Bfunction%20t(t%2Cn)%7Btry%7Be.addEventListener%3Fe.addEventListener(t%2Cn%2C!0)%3Ae.attachEvent%3Fe.attachEvent(%22on%22%2Bt%2Cn)%3Ae%5Bt%5D%3Dn%2Cr%5Bt%5D%3Dn%7Dcatch(n)%7Bconsole.warn(%22Tracert%20%E7%9B%91%E6%8E%A7%E4%BA%8B%E4%BB%B6%E6%B3%A8%E5%86%8C%E5%A4%B1%E8%B4%A5%EF%BC%9A%22%2Bt%2Cn)%7D%7Dr.error%7C%7Ct(%22error%22%2Cn)%2Cr.unhandledrejection%7C%7Ct(%22unhandledrejection%22%2Cn)%7D()%3B%3C%2Fscript%3E%0A%3Cmeta%20charset%3D%22utf-8%22%3E%0A%3Cmeta%20name%3D%22viewport%22%20content%3D%22width%3Ddevice-width%2C%20user-scalable%3Dno%2C%20initial-scale%3D1.0%2C%20maximum-scale%3D1.0%2C%20minimum-scale%3D1.0%22%3E%0A%3Cmeta%20http-equiv%3D%22X-UA-Compatible%22%20content%3D%22ie%3Dedge%22%3E%0A%3Cmeta%20name%3D%22bm_app_id%22%20content%3D%22null%22%3E%0A%3Cmeta%20name%3D%22bm_sprint_id%22%20content%3D%22S09001998210%22%3E%0A%3Clink%20rel%3D%22shortcut%20icon%22%20href%3D%22https%3A%2F%2Fmdn.alipayobjects.com%2Fhuamei_v98cj4%2Fafts%2Fimg%2FA*EfwQTpYQfq4AAAAAAAAAAAAADo6VAQ%2Foriginal%22%3E%0A%3Clink%20rel%3D%22stylesheet%22%20href%3D%22https%3A%2F%2Fgw.alipayobjects.com%2Frender%2Fp%2Fyuyan%2F180020010001258565%2Fumi.aff6baa2.css%22%3E%0A%3Cscript%3E%2F%2F%20prettier-ignore%0A!function(n%2Co%2Ce%2Ct%2Ca%2Ci)%7Bn.yuyanMonitor%3D%7Bconfig%3A%20function()%7B%7D%2C%20logError%3A%20function()%20%7B%7D%2C%20log%3A%20function()%7B%7D%7D%3Bvar%20r%3Do.createElement(%22script%22)%2Cc%3Do.querySelector(%22head%22).getElementsByTagName(%22script%22)%5B0%5D%3B%0A%20%20%20%20%20%20r.async%3D1%2Cr.src%3D%22https%3A%2F%2Fgw.alipayobjects.com%2Frender%2Fp%2Fyuyan_npm%2F%40alipay_yuyan-monitor-sdk%2F1.3.0%2Fdist%2Findex.umd.min.js%22%2Cr.crossOrigin%3D%22anonymous%22%2Cr.onload%3Dfunction()%7B%0A%20%20%20%20%20%20%20%20YuyanMonitor%26%26(n.yuyanMonitor%3Dnew%20YuyanMonitor(%7B%22_appId%22%3A%22180020010001258565%22%2C%22yuyanId%22%3A%22180020010001258565%22%2C%22sprintId%22%3A%22S09001998210%22%2C%22isH5%22%3Afalse%7D))%3Bif(n.__TERN__)%7Bif(n.__TERN__.user%26%26n.__TERN__.user.outUserNo)%7Bn.yuyanMonitor.config(%7BuserId%3An.__TERN__.user.outUserNo%2Cenv%3An.__TERN__.env%7D)%3B%7Delse%7Bn.yuyanMonitor.config(%7Benv%3An.__TERN__.env%7D)%3B%7D%7D%7D%2Co.querySelector(%22head%22).insertBefore(r%2Cc)%7D(window%2Cwindow.document)%3C%2Fscript%3E%0A%3Cscript%20type%3D%22tern-app-config%22%3E%7B%22authType%22%3A%22antbuservice%22%2C%22metadata%22%3A%7B%22favicon%22%3A%22https%3A%2F%2Fmdn.alipayobjects.com%2Fhuamei_v98cj4%2Fafts%2Fimg%2FA*EfwQTpYQfq4AAAAAAAAAAAAADo6VAQ%2Foriginal%22%7D%2C%22appName%22%3A%22CodeFuse-main%22%2C%22version%22%3A%221.0.0%22%2C%22antdVersion%22%3A%225.21.1%22%2C%22bigfishVersion%22%3A%224.2.20%22%2C%22yuyanId%22%3A%22180020010001258565%22%2C%22sprintId%22%3A%22S09001998210%22%2C%22buildTime%22%3A1729044860828%2C%22createTime%22%3Anull%2C%22proxy%22%3A%7B%22DEV%22%3A%7B%22%2Fadmin%22%3A%7B%22target%22%3A%22http%3A%2F%2Ftsingyancodegen-gz00b-006000109076.sa128-sqa.alipay.net%22%2C%22mode%22%3A%22cors%22%7D%2C%22%2Fapi%22%3A%7B%22target%22%3A%22http%3A%2F%2Ftsingyancodegen-gz00b-006000109076.sa128-sqa.alipay.net%22%2C%22mode%22%3A%22cors%22%7D%2C%22%2Fwebapi%22%3A%7B%22target%22%3A%22http%3A%2F%2Ftsingyancodegen-gz00b-006000109076.sa128-sqa.alipay.net%22%2C%22mode%22%3A%22cors%22%7D%7D%2C%22TEST%22%3A%7B%22%2Fadmin%22%3A%7B%22target%22%3A%22http%3A%2F%2Fcodegencore-2.gz00b.stable.alipay.net%22%2C%22mode%22%3A%22cors%22%7D%2C%22%2Fwebapi%22%3A%7B%22target%22%3A%22http%3A%2F%2Fcodegencore-2.gz00b.stable.alipay.net%22%2C%22mode%22%3A%22cors%22%7D%7D%2C%22PRE%22%3A%7B%22%2Fadmin%22%3A%7B%22target%22%3A%22https%3A%2F%2Ftsingyancodegen-pre.alipay.com%22%2C%22mode%22%3A%22cors%22%7D%2C%22%2Fwebapi%22%3A%7B%22target%22%3A%22https%3A%2F%2Ftsingyancodegen-pre.alipay.com%22%2C%22mode%22%3A%22cors%22%7D%7D%2C%22PROD%22%3A%7B%22%2Fadmin%22%3A%7B%22target%22%3A%22https%3A%2F%2Ftsingyancodegen.alipay.com%22%2C%22mode%22%3A%22cors%22%7D%2C%22%2Fwebapi%22%3A%7B%22target%22%3A%22https%3A%2F%2Ftsingyancodegen.alipay.com%22%2C%22mode%22%3A%22cors%22%7D%7D%2C%22mode%22%3A%22cors%22%7D%7D%3C%2Fscript%3E%0A%3Cscript%20type%3D%22umi-route-chunk-files-map%22%3E%7B%22p%22%3A%22CodeFuse-main%22%2C%22b%22%3A%22webpack%22%2C%22f%22%3A%5B%5B%22407.1da3527b.async.js%22%2C407%5D%2C%5B%22836.c8726142.chunk.css%22%2C836%5D%2C%5B%22836.1a84fb41.async.js%22%2C836%5D%2C%5B%22988.28882696.async.js%22%2C988%5D%2C%5B%221004.cb1010b5.async.js%22%2C1004%5D%2C%5B%22p__Web__BusinessContact__index.d0e048f7.chunk.css%22%2C1242%5D%2C%5B%22p__Web__BusinessContact__index.a9334b65.async.js%22%2C1242%5D%2C%5B%22p__Web__Index__index.fcab3442.chunk.css%22%2C1296%5D%2C%5B%22p__Web__Index__index.6ba7897d.async.js%22%2C1296%5D%2C%5B%221480.cb12f76e.async.js%22%2C1480%5D%2C%5B%22layouts__index.d1156535.async.js%22%2C1717%5D%2C%5B%22p__Admin__index.336add35.chunk.css%22%2C1732%5D%2C%5B%22p__Admin__index.c824799a.async.js%22%2C1732%5D%2C%5B%221770.a8ce3caf.async.js%22%2C1770%5D%2C%5B%22p__Admin__WhitePage__index.1efa76c6.chunk.css%22%2C1962%5D%2C%5B%22p__Admin__WhitePage__index.44cebaec.async.js%22%2C1962%5D%2C%5B%22p__VAT__News__index.d7a1f2b2.chunk.css%22%2C2010%5D%2C%5B%22p__VAT__News__index.52c43dd7.async.js%22%2C2010%5D%2C%5B%222022.6724a9f3.async.js%22%2C2022%5D%2C%5B%22p__Agreement__index.34c5f1ba.chunk.css%22%2C2267%5D%2C%5B%22p__Agreement__index.7871ecda.async.js%22%2C2267%5D%2C%5B%22p__MyAssistant__index.60c40ad6.chunk.css%22%2C2409%5D%2C%5B%22p__MyAssistant__index.0c94d06f.async.js%22%2C2409%5D%2C%5B%222676.f98a972b.async.js%22%2C2676%5D%2C%5B%22p__Admin__BusinessContactPage__index.336add35.chunk.css%22%2C2681%5D%2C%5B%22p__Admin__BusinessContactPage__index.2efd8fde.async.js%22%2C2681%5D%2C%5B%222840.3c63b557.async.js%22%2C2840%5D%2C%5B%22p__Admin__TokenPage__AddToken__index.a54c7e4d.chunk.css%22%2C2889%5D%2C%5B%22p__Admin__TokenPage__AddToken__index.50574db1.async.js%22%2C2889%5D%2C%5B%222974.6145c66f.async.js%22%2C2974%5D%2C%5B%223239.3ac01b63.async.js%22%2C3239%5D%2C%5B%223253.f70dba54.async.js%22%2C3253%5D%2C%5B%22p__Home__index.a416e828.chunk.css%22%2C3371%5D%2C%5B%22p__Home__index.398c280a.async.js%22%2C3371%5D%2C%5B%223461.13a1dc27.async.js%22%2C3461%5D%2C%5B%223465.f7351b98.async.js%22%2C3465%5D%2C%5B%223594.a1af781a.async.js%22%2C3594%5D%2C%5B%22p__Web__download__Index__index.5893dcc0.chunk.css%22%2C3684%5D%2C%5B%22p__Web__download__Index__index.a287483a.async.js%22%2C3684%5D%2C%5B%22p__Ide__index.934fad9c.async.js%22%2C3715%5D%2C%5B%223717.fd0506fb.chunk.css%22%2C3717%5D%2C%5B%223717.5688e089.async.js%22%2C3717%5D%2C%5B%22p__Admin__ModelPage__AddModel__index.9f51f2b3.chunk.css%22%2C3795%5D%2C%5B%22p__Admin__ModelPage__AddModel__index.23628109.async.js%22%2C3795%5D%2C%5B%223797.e3719df9.async.js%22%2C3797%5D%2C%5B%223814.30edb92e.async.js%22%2C3814%5D%2C%5B%223824.ccb2f59d.async.js%22%2C3824%5D%2C%5B%22p__Retry__index.b567b898.chunk.css%22%2C3999%5D%2C%5B%22p__Retry__index.ba3cd387.async.js%22%2C3999%5D%2C%5B%22p__AddAssistant__index.69aa36a9.chunk.css%22%2C4381%5D%2C%5B%22p__AddAssistant__index.b08618d4.async.js%22%2C4381%5D%2C%5B%224407.6e9251f6.async.js%22%2C4407%5D%2C%5B%224530.a30a087f.async.js%22%2C4530%5D%2C%5B%224638.0d5d464c.async.js%22%2C4638%5D%2C%5B%224870.017f15e9.async.js%22%2C4870%5D%2C%5B%22p__Admin__NoticePage__index.2f751360.chunk.css%22%2C4966%5D%2C%5B%22p__Admin__NoticePage__index.47f1b2f2.async.js%22%2C4966%5D%2C%5B%22p__Assistant__index.75ae3525.chunk.css%22%2C5221%5D%2C%5B%22p__Assistant__index.ea70a881.async.js%22%2C5221%5D%2C%5B%22p__NotFound__index.63accb75.async.js%22%2C5449%5D%2C%5B%22p__VAT__Solutions__index.f6f64f00.chunk.css%22%2C5844%5D%2C%5B%22p__VAT__Solutions__index.aac4287d.async.js%22%2C5844%5D%2C%5B%22p__Admin__TokenPage__index.336add35.chunk.css%22%2C6001%5D%2C%5B%22p__Admin__TokenPage__index.68e96178.async.js%22%2C6001%5D%2C%5B%226239.b8f990fa.async.js%22%2C6239%5D%2C%5B%22p__VAT__DevTaskCenter__index.9e3b80b1.chunk.css%22%2C6464%5D%2C%5B%22p__VAT__DevTaskCenter__index.e1c25c3f.async.js%22%2C6464%5D%2C%5B%22p__Admin__ModelPage__index.336add35.chunk.css%22%2C6488%5D%2C%5B%22p__Admin__ModelPage__index.2f3afacb.async.js%22%2C6488%5D%2C%5B%22p__VAT__Index__index.cf124391.chunk.css%22%2C6736%5D%2C%5B%22p__VAT__Index__index.593abd2d.async.js%22%2C6736%5D%2C%5B%226769.aa47f0eb.async.js%22%2C6769%5D%2C%5B%226978.158eec0c.async.js%22%2C6978%5D%2C%5B%22p__Web__Home__index.f4793837.chunk.css%22%2C7115%5D%2C%5B%22p__Web__Home__index.70703058.async.js%22%2C7115%5D%2C%5B%227349.0131a631.async.js%22%2C7349%5D%2C%5B%22p__Apply__index.6a915f73.chunk.css%22%2C7468%5D%2C%5B%22p__Apply__index.c541d209.async.js%22%2C7468%5D%2C%5B%227477.852d8957.async.js%22%2C7477%5D%2C%5B%22p__VAT__Home__index.b13e1ce5.chunk.css%22%2C7482%5D%2C%5B%22p__VAT__Home__index.0dda3296.async.js%22%2C7482%5D%2C%5B%22p__AddPlugin__index.9c9a973e.chunk.css%22%2C7584%5D%2C%5B%22p__AddPlugin__index.3d234dac.async.js%22%2C7584%5D%2C%5B%22p__Web__Open__index.5692f6eb.chunk.css%22%2C7631%5D%2C%5B%22p__Web__Open__index.02be2e28.async.js%22%2C7631%5D%2C%5B%227822.e0b92de7.async.js%22%2C7822%5D%2C%5B%228162.acb7d0ce.async.js%22%2C8162%5D%2C%5B%22p__Plugin__index.f1bf0dde.chunk.css%22%2C8501%5D%2C%5B%22p__Plugin__index.7e8d065a.async.js%22%2C8501%5D%2C%5B%228643.7c467807.async.js%22%2C8643%5D%2C%5B%229098.a668f9b9.async.js%22%2C9098%5D%2C%5B%229117.82dfdd23.async.js%22%2C9117%5D%2C%5B%229201.336893ae.async.js%22%2C9201%5D%2C%5B%229382.7b524ebc.async.js%22%2C9382%5D%2C%5B%229541.57f0d014.async.js%22%2C9541%5D%2C%5B%229658.7158c622.async.js%22%2C9658%5D%2C%5B%229695.58795c3c.async.js%22%2C9695%5D%2C%5B%22p__AddBusinessContactPage__index.6ec2ece9.chunk.css%22%2C9701%5D%2C%5B%22p__AddBusinessContactPage__index.c62c7374.async.js%22%2C9701%5D%2C%5B%229783.6bd54584.async.js%22%2C9783%5D%2C%5B%22p__Admin__ApplyPage__index.336add35.chunk.css%22%2C9804%5D%2C%5B%22p__Admin__ApplyPage__index.a70cf8a9.async.js%22%2C9804%5D%2C%5B%22p__Admin__UserPage__index.bbe9339f.chunk.css%22%2C9854%5D%2C%5B%22p__Admin__UserPage__index.0931f106.async.js%22%2C9854%5D%5D%2C%22r%22%3A%7B%22%2F%22%3A%5B10%2C34%2C72%5D%2C%22%2Fsession%22%3A%5B0%2C1%2C2%2C3%2C4%2C13%2C18%2C23%2C29%2C31%2C32%2C33%2C34%2C36%2C44%2C46%2C52%2C53%2C54%2C64%2C72%2C75%2C78%2C89%2C91%2C92%2C93%2C94%2C10%5D%2C%22%2Fapply%22%3A%5B76%2C77%2C10%2C34%2C72%5D%2C%22%2Fadmin%22%3A%5B11%2C12%2C10%2C34%2C72%5D%2C%22%2Fretry%22%3A%5B47%2C48%2C10%2C34%2C72%5D%2C%22%2Fide%22%3A%5B39%2C40%2C41%2C10%2C34%2C72%5D%2C%22%2FaddBusinessContact%22%3A%5B0%2C3%2C18%2C23%2C29%2C30%2C36%2C54%2C91%2C92%2C93%2C94%2C97%2C98%2C10%2C34%2C72%5D%2C%22%2Fagreement%22%3A%5B3%2C19%2C20%2C54%2C92%2C10%2C34%2C72%5D%2C%22%2Fassistant%22%3A%5B0%2C3%2C4%2C18%2C23%2C29%2C31%2C34%2C36%2C44%2C46%2C51%2C52%2C53%2C54%2C57%2C58%2C64%2C71%2C72%2C75%2C78%2C89%2C91%2C92%2C93%2C94%2C96%2C99%2C10%5D%2C%22%2FmyAssistant%22%3A%5B0%2C3%2C4%2C18%2C21%2C22%2C23%2C29%2C31%2C34%2C36%2C44%2C46%2C51%2C52%2C53%2C54%2C64%2C71%2C72%2C75%2C78%2C89%2C91%2C92%2C93%2C94%2C96%2C99%2C10%5D%2C%22%2FaddAssistant%22%3A%5B0%2C3%2C18%2C23%2C29%2C34%2C35%2C36%2C46%2C49%2C50%2C54%2C64%2C72%2C91%2C92%2C93%2C94%2C99%2C10%5D%2C%22%2FaddPlugin%22%3A%5B0%2C3%2C23%2C81%2C82%2C90%2C92%2C93%2C10%2C34%2C72%5D%2C%22%2Fplugin%22%3A%5B0%2C3%2C4%2C18%2C23%2C29%2C31%2C34%2C36%2C44%2C46%2C51%2C52%2C53%2C54%2C64%2C71%2C72%2C75%2C78%2C87%2C88%2C89%2C91%2C92%2C93%2C94%2C96%2C99%2C10%5D%2C%22%2Fvat%22%3A%5B0%2C3%2C30%2C46%2C69%2C70%2C91%2C92%2C94%2C10%2C34%2C72%5D%2C%22%2Fwelcome%22%3A%5B0%2C3%2C7%2C8%2C13%2C18%2C23%2C30%2C31%2C45%2C46%2C54%2C91%2C92%2C93%2C94%2C95%2C10%2C34%2C72%5D%2C%22%2F404%22%3A%5B59%2C92%2C10%2C34%2C72%5D%2C%22%2Fsession%2F%3AsessionId%22%3A%5B0%2C1%2C2%2C3%2C4%2C13%2C18%2C23%2C29%2C31%2C32%2C33%2C34%2C36%2C44%2C46%2C52%2C53%2C54%2C64%2C72%2C75%2C78%2C89%2C91%2C92%2C93%2C94%2C10%5D%2C%22%2Fadmin%2Fuser%22%3A%5B0%2C3%2C4%2C18%2C23%2C31%2C34%2C44%2C46%2C52%2C53%2C54%2C64%2C71%2C72%2C75%2C78%2C91%2C92%2C93%2C94%2C99%2C102%2C103%2C11%2C12%2C10%5D%2C%22%2Fadmin%2Fwhitelist%22%3A%5B0%2C3%2C14%2C15%2C18%2C23%2C34%2C52%2C54%2C64%2C75%2C78%2C91%2C92%2C93%2C94%2C11%2C12%2C10%2C72%5D%2C%22%2Fadmin%2Fapply%22%3A%5B0%2C3%2C4%2C18%2C23%2C31%2C34%2C44%2C46%2C52%2C53%2C54%2C64%2C71%2C72%2C75%2C78%2C91%2C92%2C93%2C94%2C99%2C100%2C101%2C11%2C12%2C10%5D%2C%22%2Fadmin%2Fbusinesscontact%22%3A%5B0%2C3%2C4%2C18%2C23%2C24%2C25%2C31%2C34%2C44%2C46%2C52%2C53%2C54%2C64%2C71%2C72%2C75%2C78%2C91%2C92%2C93%2C94%2C99%2C11%2C12%2C10%5D%2C%22%2Fadmin%2Fmodel%22%3A%5B0%2C3%2C4%2C9%2C18%2C23%2C31%2C34%2C44%2C46%2C52%2C53%2C54%2C64%2C67%2C68%2C71%2C72%2C75%2C78%2C91%2C92%2C93%2C94%2C99%2C11%2C12%2C10%5D%2C%22%2Fadmin%2Ftoken%22%3A%5B0%2C3%2C4%2C18%2C23%2C31%2C34%2C44%2C46%2C52%2C53%2C54%2C62%2C63%2C64%2C71%2C72%2C75%2C78%2C85%2C91%2C92%2C93%2C94%2C99%2C11%2C12%2C10%5D%2C%22%2Fadmin%2Fnotice%22%3A%5B0%2C3%2C4%2C18%2C23%2C31%2C34%2C44%2C46%2C52%2C53%2C54%2C55%2C56%2C64%2C71%2C72%2C75%2C78%2C91%2C92%2C93%2C94%2C99%2C11%2C12%2C10%5D%2C%22%2Fvat%2Fhome%22%3A%5B30%2C79%2C80%2C0%2C3%2C46%2C69%2C70%2C91%2C92%2C94%2C10%2C34%2C72%5D%2C%22%2Fvat%2Fsolutions%22%3A%5B30%2C60%2C61%2C92%2C0%2C3%2C46%2C69%2C70%2C91%2C94%2C10%2C34%2C72%5D%2C%22%2Fvat%2FdevTaskCenter%22%3A%5B0%2C3%2C18%2C30%2C34%2C64%2C65%2C66%2C75%2C78%2C91%2C92%2C93%2C94%2C99%2C46%2C69%2C70%2C10%2C72%5D%2C%22%2Fvat%2Fnews%22%3A%5B16%2C17%2C30%2C0%2C3%2C46%2C69%2C70%2C91%2C92%2C94%2C10%2C34%2C72%5D%2C%22%2Fwelcome%2Fproduct%22%3A%5B0%2C3%2C18%2C23%2C26%2C30%2C45%2C54%2C73%2C74%2C92%2C93%2C7%2C8%2C13%2C31%2C46%2C91%2C94%2C95%2C10%2C34%2C72%5D%2C%22%2Fwelcome%2Fdownload%22%3A%5B0%2C3%2C18%2C23%2C30%2C37%2C38%2C45%2C54%2C92%2C93%2C7%2C8%2C13%2C31%2C46%2C91%2C94%2C95%2C10%2C34%2C72%5D%2C%22%2Fwelcome%2Fopen%22%3A%5B30%2C83%2C84%2C0%2C3%2C7%2C8%2C13%2C18%2C23%2C31%2C45%2C46%2C54%2C91%2C92%2C93%2C94%2C95%2C10%2C34%2C72%5D%2C%22%2Fwelcome%2FaddBusinessContact%22%3A%5B0%2C3%2C5%2C6%2C18%2C23%2C30%2C92%2C93%2C7%2C8%2C13%2C31%2C45%2C46%2C54%2C91%2C94%2C95%2C10%2C34%2C72%5D%2C%22%2Fadmin%2Fmodel%2F%3AmodelId%22%3A%5B0%2C3%2C4%2C18%2C23%2C42%2C43%2C54%2C64%2C91%2C92%2C93%2C11%2C12%2C10%2C34%2C72%5D%2C%22%2Fadmin%2Ftoken%2F%3AtokenId%22%3A%5B0%2C3%2C4%2C18%2C23%2C27%2C28%2C31%2C34%2C44%2C46%2C52%2C54%2C64%2C72%2C78%2C91%2C92%2C93%2C11%2C12%2C10%5D%2C%22%2Fadmin%2Fmodel%2Fadd%22%3A%5B0%2C3%2C4%2C18%2C23%2C42%2C43%2C54%2C64%2C91%2C92%2C93%2C11%2C12%2C10%2C34%2C72%5D%2C%22%2Fadmin%2Ftoken%2Fadd%22%3A%5B0%2C3%2C4%2C18%2C23%2C27%2C28%2C31%2C34%2C44%2C46%2C52%2C54%2C64%2C72%2C78%2C91%2C92%2C93%2C11%2C12%2C10%5D%7D%7D%3C%2Fscript%3E%0A%3C%2Fhead%3E%0A%3Cbody%3E%0A%3Cdiv%20id%3D%22root%22%3E%3C%2Fdiv%3E%0A%3Cscript%20src%3D%22https%3A%2F%2Fgw.alipayobjects.com%2Frender%2Fp%2Fyuyan%2F180020010001258565%2Fumi.c757d8a1.js%22%20entry%3D%22%22%20crossorigin%3D%22anonymous%22%3E%3C%2Fscript%3E%0A%3Cscript%20src%3D%22https%3A%2F%2Fgw.alipayobjects.com%2Fas%2Fg%2Fcomponent%2Ftracert%2F4.6.8%2Findex.js%22%3E%3C%2Fscript%3E%0A%0A%3C%2Fbody%3E%3C%2Fhtml%3E</script><script type="tern-site-config">{"authType":"custom","mode":"cloud","yuyanId":"180020010201247110","name":"codeFuse-Site","metadata":{"favicon":"https://mdn.alipayobjects.com/huamei_o7lflc/afts/img/A*B-VWQafj0FsAAAAAAAAAAAAADkO7AQ/original","title":"codefuse"},"monitor":true,"presets":[{"name":"tern-masterapp-open","yuyanId":"180020010001210267","entry":"https://render.alipay.com/p/yuyan/180020010001210267/","version":"latest","env":"PROD","network":"INTERNET","props":{"apps":[{"name":"CodeFuse-main","yuyanId":"180020010001258565","entry":"https://render.alipay.com/p/yuyan/180020010001258565/","version":"latest","env":"PROD","network":"INTERNET","props":{}}],"customMenus":{},"externalApps":[],"headerLinks":[{"children":"帮助手册","href":"","spm":"","style":{},"svg":"https://mdn.alipayobjects.com/huamei_ahtjiv/afts/img/A*onYTSIWydVgAAAAAAAAAAAAADteFAQ/original","title":"帮助手册"}],"headless":true,"logoImg":"https://mdn.alipayobjects.com/huamei_v98cj4/afts/img/A*117fRbDwo8gAAAAAAAAAAAAADo6VAQ/original","menus":[],"menusMode":"standard","routes":[{"microApp":"CodeFuse-main","microAppProps":{"proxy":{"PROD":{"/admin":{"target":"https://tsingyancodegen.alipay.com"},"/webapi":{"target":"https://tsingyancodegen.alipay.com"}}},"settings":{"sandbox":{"speedy":true}}},"mode":"match","path":"/*"},{"microApp":"CodeFuse-main","microAppProps":{"proxy":{"PROD":{"/admin":{"target":"https://tsingyancodegen.alipay.com"},"/webapi":{"target":"https://tsingyancodegen.alipay.com"}}},"settings":{"sandbox":{"speedy":true}}},"mode":"match","path":"/"}],"siteName":"codeFuse","userPanelLinks":[{"children":"","href":"","spm":""}]}}],"apps":[],"version":"S09001721565","orchestration":["tern-masterapp-open"],"productCode":"PT2021112311361600301851053","indexAppConfig":{"authType":"antbuservice","metadata":{},"appName":"tern-masterapp-open","version":"1.0.0","antdVersion":"5.21.5","bigfishVersion":"4.2.29","yuyanId":"180020010001210267","sprintId":"S090011042610","buildTime":1732780123068,"createTime":null,"proxy":{"mode":"cors"}}}</script><meta charset="utf-8"><meta name="tern-framework-version" content="S01001947844"><script>window.injectInfo = { env: "PROD" };</script><script>window.publicPath = "https://gw.alipayobjects.com/render/p/yuyan/180020010000012660/";</script><script>(function() {
+      if (window.document.documentMode && !window.__POWERED_BY_QIANKUN__) {
+        var winPublicPath = window.publicPath || '/';
+        var publicPathWithoutSlash = winPublicPath.substring(0, winPublicPath.length-1);
+        document.writeln('<script src="'+publicPathWithoutSlash+'/polyfill-03cb8d58.js" crossorigin="anonymous"><\/script>');
+      }
+    })();</script><!-- ternbaseEnv: prod -->
+
+<script>window.__TERN__ = {"ssr":true,"x-ldcid-level":"","env":"PROD","user":{},"netType":"INTERNET","webgw":{"webgwDomain":"webgw-internet.alipay.com"}};</script><script src="https://gw.alipayobjects.com/render/p/yuyan/180020010000012660/main-1a4f47c6.js" crossorigin="anonymous"></script><title>codefuse</title><link rel="shortcut icon" href="https://mdn.alipayobjects.com/huamei_o7lflc/afts/img/A*B-VWQafj0FsAAAAAAAAAAAAADkO7AQ/original"><script>window.injectInfo = { env: "PROD" };</script><script>window.publicPath = "https://gw.alipayobjects.com/render/p/yuyan/180020010001210267/";</script><script>!function(){var e=window;function n(n){if(e.g_monitor&&e.g_monitor.events){var t=e.g_monitor.events;t.length<20&&t.push(n)}}e.g_monitor=e.g_monitor||{listener:{},events:[]};var r=e.g_monitor.listener;function t(t,n){try{e.addEventListener?e.addEventListener(t,n,!0):e.attachEvent?e.attachEvent("on"+t,n):e[t]=n,r[t]=n}catch(n){console.warn("Tracert 监控事件注册失败："+t,n)}}r.error||t("error",n),r.unhandledrejection||t("unhandledrejection",n)}();</script><script type="dependencymap">{"dependencies": {"dayjs":{"url":"https://gw.alipayobjects.com/os/lib/dayjs/1.11.13/dayjs.min.js","version":"1.11.13","range":"^1.0.0"},"history":{"url":"https://gw.alipayobjects.com/os/lib/history/5.3.0/umd/history.production.min.js","version":"5.3.0","range":"^5.0.0"},"lodash":{"url":"https://gw.alipayobjects.com/os/lib/lodash/4.17.21/lodash.min.js","version":"4.17.21","range":"^4.0.0"},"moment":{"url":"https://gw.alipayobjects.com/os/lib/moment/2.30.1/min/moment-with-locales.min.js","version":"2.30.1","range":"^2.0.0"},"react":{"url":"https://gw.alipayobjects.com/os/lib/react/18.3.1/umd/react.production.min.js","version":"18.3.1","range":"^18.0.0"},"@ant-design/icons":{"url":"https://gw.alipayobjects.com/os/lib/ant-design/icons/4.8.3/dist/index.umd.min.js","version":"4.8.3","range":"^4.0.0","peerDeps":["react"]},"react-dom":{"url":"https://gw.alipayobjects.com/os/lib/react-dom/18.3.1/umd/react-dom.production.min.js","version":"18.3.1","range":"^18.0.0","peerDeps":["react"]},"antd":{"url":"https://gw.alipayobjects.com/os/lib/antd/5.21.5/dist/antd-with-locales.min.js","version":"5.21.5","range":"^5.0.0","peerDeps":["react","react-dom","dayjs"]}}}</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="bm_app_id" content="null">
+<meta name="bm_sprint_id" content="S090011042610">
+<meta name="data-aspm" content="a404">
+<meta name="data-bizType" content="pcwallet">
+<script>if(document.documentMode){document.body.innerHTML='<a style="text-align: center;display: block" href="https://www.google.cn/intl/zh-CN/chrome/browser/desktop/"><img style="width: 500px;margin: 200px" src="https://mdn.alipayobjects.com/huamei_ahtjiv/afts/img/A*fQt0Qophu5gAAAAAAAAAAAAADteFAQ/original"/></a>'}</script>
+<script crossorigin="" src="https://gw.alipayobjects.com/os/lib/alipay/react16-map-set-polyfill/1.0.2/dist/react16-map-set-polyfill.min.js"></script>
+<script crossorigin="" src="https://gw.alipayobjects.com/os/lib/dayjs/1.11.13/dayjs.min.js"></script>
+<script crossorigin="" src="https://gw.alipayobjects.com/os/lib/history/5.3.0/umd/history.production.min.js"></script>
+<script crossorigin="" src="https://gw.alipayobjects.com/os/lib/lodash/4.17.21/lodash.min.js"></script>
+<script crossorigin="" src="https://gw.alipayobjects.com/os/lib/moment/2.30.1/min/moment-with-locales.min.js"></script>
+<script crossorigin="" src="https://gw.alipayobjects.com/os/lib/react/18.3.1/umd/react.production.min.js"></script>
+<script crossorigin="" src="https://gw.alipayobjects.com/os/lib/ant-design/icons/4.8.3/dist/index.umd.min.js"></script>
+<script crossorigin="" src="https://gw.alipayobjects.com/os/lib/react-dom/18.3.1/umd/react-dom.production.min.js"></script>
+<script crossorigin="" src="https://gw.alipayobjects.com/os/lib/antd/5.21.5/dist/antd-with-locales.min.js"></script>
+<script>// prettier-ignore
+!function(n,o,e,t,a,i){n.yuyanMonitor={config: function(){}, logError: function() {}, log: function(){}};var r=o.createElement("script"),c=o.querySelector("head").getElementsByTagName("script")[0];
+      r.async=1,r.src="https://gw.alipayobjects.com/render/p/yuyan_npm/@alipay_yuyan-monitor-sdk/1.3.0/dist/index.umd.min.js",r.crossOrigin="anonymous",r.onload=function(){
+        YuyanMonitor&&(n.yuyanMonitor=new YuyanMonitor({"_appId":"180020010001210267","yuyanId":"180020010001210267","sprintId":"S090011042610","isH5":false}));if(n.__TERN__){if(n.__TERN__.user&&n.__TERN__.user.outUserNo){n.yuyanMonitor.config({userId:n.__TERN__.user.outUserNo,env:n.__TERN__.env});}else{n.yuyanMonitor.config({env:n.__TERN__.env});}}},o.querySelector("head").insertBefore(r,c)}(window,window.document)</script>
+
+<script>
+  !function(src) {
+    var _windowVM__TERN__;
+    function assignProperty(target, k, v) {
+      if (target.hasOwnProperty(k) && target[k] !== undefined) return;
+      if (v === undefined) return;
+      target[k] = v;
+    }
+    window._to = {};
+    if ((_windowVM__TERN__ = window.__TERN__) !== null && _windowVM__TERN__ !== void 0 && (_windowVM__TERN__ = _windowVM__TERN__.user) !== null && _windowVM__TERN__ !== void 0 && (_windowVM__TERN__ = _windowVM__TERN__.clientUser) !== null && _windowVM__TERN__ !== void 0 && _windowVM__TERN__.userId) {
+      window._to.role_id = window.__TERN__.user.clientUser.userId;
+    }
+    window._to.yuyanId=180020010001210267;
+    window._to._isPrimaryApp=true;
+    assignProperty(window._to, 'expoFixedDom', true);
+assignProperty(window._to, 'spmAPos', "a404");
+assignProperty(window._to, 'bizType', "pcwallet");
+assignProperty(window._to, 'asyncScript', true);
+assignProperty(window._to, 'autoExpo', true);
+assignProperty(window._to, 'ifRouterNeedPv', true);
+assignProperty(window._to, 'autoLogPv', false);
+
+    
+  (function loader() {
+    if (Object.prototype.toString.call(window.TracertCmdCache) === '[object Array]') {
+      window.TracertCmdCache = [];
+    }
+    var Tracert = {
+      _isInit: true,
+      _readyToRun: [],
+      // 生成uuid
+      _guid: function _guid() {
+        return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function (c) {
+          var r = Math.random() * 16 | 0;
+          var v = c === 'x' ? r : r & 0x3 | 0x8;
+          return v.toString(16);
+        });
+      },
+      get: function get(key) {
+        if (key === 'pageId') {
+          window._tracert_loader_cfg = window._tracert_loader_cfg || {};
+          if (window._tracert_loader_cfg.pageId) {
+            return window._tracert_loader_cfg.pageId;
+          }
+          var metaa = document.querySelectorAll('meta[name=data-aspm]');
+          var spma = metaa && metaa[0] && metaa[0].getAttribute('content');
+          var spmb = document.body && document.body.getAttribute('data-aspm');
+          var pageId = spma && spmb ? "".concat(spma, ".").concat(spmb, "_").concat(Tracert._guid(), "_").concat(Date.now()) : "-_".concat(Tracert._guid(), "_").concat(Date.now());
+          window._tracert_loader_cfg.pageId = pageId;
+          return pageId;
+        }
+        return this[key];
+      },
+      call: function call() {
+        var args = arguments;
+        var argsList;
+        try {
+          argsList = [].slice.call(args, 0);
+        } catch (ex) {
+          var argsLen = args.length;
+          argsList = [];
+          for (var i = 0; i < argsLen; i++) {
+            argsList.push(args[i]);
+          }
+        }
+        Tracert.addToRun(function () {
+          Tracert.call.apply(Tracert, argsList);
+        });
+      },
+      addToRun: function addToRun(_fn) {
+        var fn = _fn;
+        if (typeof fn === 'function') {
+          fn._logTimer = new Date() - 0;
+          Tracert._readyToRun.push(fn);
+        }
+      },
+      createTracert: undefined,
+      spmAPos: undefined,
+      autoLogPv: undefined,
+      autoExpo: undefined,
+      bizType: undefined,
+      ifRouterNeedPv: undefined,
+      enableMicroAppInstance: undefined,
+      v: undefined
+    };
+    var fnlist = ['config', 'logPv', 'info', 'error', 'click', 'expo', 'pageName', 'pageState', 'time', 'timeEnd', 'parse', 'expoCheck', 'stringify', 'report', 'set', 'before'];
+    for (var i = 0; i < fnlist.length; i++) {
+      var fn = fnlist[i];
+      (function (fn) {
+        Tracert[fn] = function () {
+          var args = arguments;
+          var argsList;
+          try {
+            argsList = [].slice.call(args, 0);
+          } catch (ex) {
+            var argsLen = args.length;
+            argsList = [];
+            for (var _i2 = 0; _i2 < argsLen; _i2++) {
+              argsList.push(args[_i2]);
+            }
+          }
+          argsList.unshift(fn);
+          Tracert.addToRun(function () {
+            Tracert.call.apply(Tracert, argsList);
+          });
+        };
+      })(fn);
+    }
+    if (window.Proxy) {
+      var handler = {
+        get: function get(target, property) {
+          var _targetVMhasOwnPropert;
+          if (target !== null && target !== void 0 && (_targetVMhasOwnPropert = target.hasOwnProperty) !== null && _targetVMhasOwnPropert !== void 0 && _targetVMhasOwnPropert.call(target, property)) {
+            return target[property];
+          }
+          return target.call.bind(this, property);
+        }
+      };
+      var proxyTracert = new window.Proxy(Tracert, handler);
+      window.Tracert = proxyTracert;
+    } else {
+      window.Tracert = Tracert;
+    }
+  })();
+
+
+    var _windowVMdocument, _windowVMdocumentVMcrea;
+    var curScript = (_windowVMdocument = window.document) === null || _windowVMdocument === void 0 || (_windowVMdocumentVMcrea = _windowVMdocument.createElement) === null || _windowVMdocumentVMcrea === void 0 ? void 0 : _windowVMdocumentVMcrea.call(_windowVMdocument, 'script');
+    if (!curScript) return;
+    curScript.async = true;
+    var _windowVMdocumentVMquer, _documentVMquerySelect;
+    curScript.crossOrigin = 'anonymous';
+    curScript.src = src;
+    var insertScript = ((_windowVMdocumentVMquer = window.document.querySelector('head')) === null || _windowVMdocumentVMquer === void 0 ? void 0 : _windowVMdocumentVMquer.getElementsByTagName('script')[0]) || null;
+    if (!insertScript) return;
+    (_documentVMquerySelect = document.querySelector('head')) === null || _documentVMquerySelect === void 0 ? void 0 : _documentVMquerySelect.insertBefore(curScript, insertScript);
+    curScript.onerror = function () {
+      console.warn("[Bigfish] Tracert script load error, please check your network and spma.");
+      var fallback = function fallback() {
+        console.warn("[Bigfish] Tracert run error, please make sure the script import right.");
+      };
+      var fnlist = ["call", "start", "config", "logPv", "info", "err", "click", "expo", "pageName", "pageState", "time", "timeEnd", "parse", "checkExpo", "stringify", "report", "set", "before"];
+      if (Object.prototype.toString.call(window.Tracert) != '[object Object]') {
+        window.Tracert = {};
+      }
+      for (var i = 0; i < fnlist.length; i++) {
+        window.Tracert[fnlist[i]] = fallback;
+      }
+    };
+  }('https://ur.alipay.com/tracert_a404.js');
+</script>
+</head><body>
+<div id="bportal"></div>
+<script src="https://gw.alipayobjects.com/render/p/yuyan/180020010001210267/umi.c526e682.js" crossorigin="anonymous"></script>
+
+</body></html>

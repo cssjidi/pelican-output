@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/ico.png" />
+    <meta
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+      name="viewport"
+    />
+    <title>BetterYeah AI</title>
+    <style>
+      #betteryeah-center-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        /* 使包装器的高度占满视口高度 */
+      }
+
+      #betteryeah-loading {
+        width: 20px;
+        height: 20px;
+        -webkit-animation: spin 2s linear infinite;
+        /* Safari */
+        animation: spin 2s linear infinite;
+      }
+
+      /* Safari */
+      @-webkit-keyframes spin {
+        0% {
+          -webkit-transform: rotate(0deg);
+        }
+
+        100% {
+          -webkit-transform: rotate(360deg);
+        }
+      }
+
+      @keyframes spin {
+        0% {
+          transform: rotate(0deg);
+        }
+
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+    </style>
+    <script>
+      // 旧域名跳转到新域名
+      if (
+        window.location.host === 'ai-web.bantouyan.com' ||
+        window.location.host === 'ai.battleyeah.com'
+      ) {
+        window.location.href =
+          'https://ai.betteryeah.com' +
+          window.location.pathname +
+          window.location.search
+      }
+    </script>
+    <script
+      crossorigin
+      src="https://resource.bantouyan.com/keyu-base/react.production.min.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://resource.bantouyan.com/keyu-base/react-dom.production.min.js"
+    ></script>
+    <link
+      href="https://resource.bantouyan.com/betteryeah/dev/highlight.js/10.2.1/styles/hopscotch.css"
+      rel="stylesheet"
+    />
+    
+    <script>
+      window.AI_API_BASE_URL = 'https://ai-api.betteryeah.com'
+      window.DB_API_BASE_URL = 'https://gemini-db.betteryeah.com'
+      window.__DEFINE_ENV__ = 'production'
+    </script>
+    <script>
+      // eslint-disable-next-line no-var, @typescript-eslint/no-use-before-define
+      var _hmt = _hmt || []
+      ;(function () {
+        const hm = document.createElement('script')
+        hm.src = 'https://hm.baidu.com/hm.js?850a8c0d431a0077007f5f12f79dbfc5'
+        const s = document.getElementsByTagName('script')[0]
+        s.parentNode.insertBefore(hm, s)
+      })()
+    </script>
+    <script>
+      ;(function (w, d, t, r, u) {
+        var f, n, i
+        ;(w[u] = w[u] || []),
+          (f = function () {
+            var o = { ti: '343134499', enableAutoSpaTracking: true }
+            ;(o.q = w[u]), (w[u] = new UET(o)), w[u].push('pageLoad')
+          }),
+          (n = d.createElement(t)),
+          (n.src = r),
+          (n.async = 1),
+          (n.onload = n.onreadystatechange =
+            function () {
+              var s = this.readyState
+              ;(s && s !== 'loaded' && s !== 'complete') ||
+                (f(), (n.onload = n.onreadystatechange = null))
+            }),
+          (i = d.getElementsByTagName(t)[0]),
+          i.parentNode.insertBefore(n, i)
+      })(window, document, 'script', '//bat.bing.com/bat.js', 'uetq')
+    </script>
+  <script defer src="/js/lib-axios.791548b0.js"></script><script defer src="/js/lib-router.34409146.js"></script><script defer src="/js/553.34ee63c3.js"></script><script defer src="/js/824.8e8283fd.js"></script><script defer src="/js/551.4726825f.js"></script><script defer src="/js/index.319b87eb.js"></script><link href="/css/824.ad1b0473.css" rel="stylesheet"><link href="/css/index.3f5a89e9.css" rel="stylesheet"></head>
+
+  <body>
+      <div id="root">
+      <div id="betteryeah-center-wrapper">
+        <!-- 加载图标 -->
+        <div id="betteryeah-loading">
+          <img
+            width="100%"
+            src="https://resource-bty.oss-cn-hangzhou.aliyuncs.com/betteryeah/base/load.png"
+            alt="loading"
+          />
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn2.codesign.qq.com/icons/XMx86jzryMjbrz3/latest/iconfont.js?buildId=1733392086362"></script>
+    <script>
+      //  iframe中接受  src/components/pageModal/PageModal.tsx 中的 方法直接新开页面
+      window.addEventListener('message', event => {
+        if (
+          event.data &&
+          event.data.type === 'window-open' &&
+          event.data.payload &&
+          event.data.payload.url
+        ) {
+          window.open(event.data.payload.url, '_blank')
+        }
+      })
+    </script>
+    <script>
+      const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+        navigator.userAgent
+      )
+      const autoWidth = window.location.search.includes('autowidth') && isMobile
+      if (autoWidth) {
+        const root = document.getElementById('root')
+        if (root && root.classList) {
+          root.classList.add('auto-width')
+        }
+      }
+    </script>
+  </body>
+</html>

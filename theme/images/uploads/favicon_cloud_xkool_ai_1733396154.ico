@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <link rel="stylesheet" href="/pc/wechatQr.css"/>
+  <title></title>
+  <style>
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    ._root_full_box {
+      background: linear-gradient(180deg, #1c2032 0%, #070a14 100%);
+      width: 100vw;
+      height: 100vh;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      font-size: 12px;
+    }
+
+    ._root_pre_loading {
+      width: 20px;
+      height: 24px;
+      border: 1px rgba(255, 255, 255, 1) solid;
+      border-radius: 0 0 5px 5px;
+      position: relative;
+    }
+
+    ._root_pre_loading::before,
+    ._root_pre_loading::after {
+      position: absolute;
+      content: "";
+    }
+
+    ._root_pre_loading::before {
+      width: 1px;
+      height: 6px;
+      background-color: rgba(255, 255, 255, 1);
+      top: -10px;
+      left: 4px;
+      box-shadow: 5px 0 0 0 rgba(255, 255, 255, 1), 5px -5px 0 0 rgba(255, 255, 255, 1), 10px 0 0 0 rgba(255, 255, 255, 1);
+      -webkit-animation: steam 1s linear infinite alternate;
+      -moz-animation: steam 1s linear infinite alternate;
+      animation: steam 0.6s linear infinite alternate;
+    }
+
+    ._root_pre_loading::after {
+      width: 5px;
+      height: 12px;
+      border: 1px #fff solid;
+      border-left: none;
+      border-radius: 0 20px 20px 0;
+      left: 20px;
+    }
+
+    ._root_loading_text {
+      margin-top: 16px;
+      color: #fff;
+    }
+
+    @-webkit-keyframes steam {
+      0% {
+        height: 0;
+      }
+
+      100% {
+        height: 6px;
+      }
+    }
+
+    @-moz-keyframes steam {
+      0% {
+        height: 0
+      }
+
+      100% {
+        height: 6px;
+      }
+    }
+
+    @keyframes steam {
+      0% {
+        height: 0
+      }
+
+      100% {
+        height: 6px;
+      }
+    }
+  </style>
+  <script type="module" crossorigin src="/pc/assets/index-BFsJATVr.js"></script>
+  <link rel="stylesheet" crossorigin href="/pc/assets/style-4yj-y23O.css">
+</head>
+
+<body id="xkool-app">
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root">
+    <div class="_root_full_box">
+      <div class="_root_pre_loading"></div>
+      <div class="_root_loading_text">Loading . . .</div>
+    </div>
+  </div>
+  <script src="https://res.wx.qq.com/connect/zh_CN/htmledition/js/wxLogin.js"></script>
+  <script src="https://cdn.dingxiang-inc.com/ctu-group/captcha-ui/index.js"></script>
+</body>
+
+</html>

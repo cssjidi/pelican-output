@@ -1,0 +1,811 @@
+﻿<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="https://officaloss.smartread.cc/smartread/images/icon.ico">
+    <meta name="description" content="司马阅，是一款基于自研文档智能大模型(DocMind)开发的AI文档阅读分析产品，通过聊天互动形式，精准地从复杂文档提取并分析信息，极大节省文档阅读和检索时间及便捷获取创新灵感，高效应用于工作、学习场景，如读行业市场报告、产品手册、法律文档、论文文献、电子书等。">
+    <meta name="keywords" content="司马阅,司马阅官网,司马阅AI,司马阅SmartRead,chatdoc,chatpdf,人工智能,AI文档阅读工具,AI知识库,智能文档分析,聊天互动式文档,AI工作效率提升,AI文档分析,PDF阅读与总结,AI读合同,法律文档AI,AI读学术论文,AI读行业报告,产品手册AI解读,AI读电子书,人工智能文档处理,聊天机器人,ChatBot,大语言模型应用,企业信息管理解决方案">
+    <meta name="referrer" content="https://smartread.cc">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://officaloss.smartread.cc/smartread/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://officaloss.smartread.cc/smartread/css/themify-icons.css" rel="stylesheet">
+    <link href="https://officaloss.smartread.cc/smartread/css/1/style.css" rel="stylesheet">
+    <link href="https://officaloss.smartread.cc/smartread/css/slick.css" rel="stylesheet">
+    <link href="https://officaloss.smartread.cc/smartread/css/slick-theme.css" rel="stylesheet">
+    <link href="https://officaloss.smartread.cc/smartread/css//animate.css" rel="stylesheet">
+    <link href="https://officaloss.smartread.cc/smartread/css/magnific-popup.css" rel="stylesheet">
+    <link href="https://officaloss.smartread.cc/smartread/css/style.css" rel="stylesheet">
+    <link href="https://officaloss.smartread.cc/smartread/css/responsive.css" rel="stylesheet">
+
+    <style>
+        .popup {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: white;
+            padding: 10px;
+            border: 1px solid white;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        }
+        .text:hover + .popup {
+            display: block;
+        }
+    </style>
+
+
+<style>  
+    button {  
+      background-color: #ffffff; /* 默认背景颜色 */  
+      border: 2px solid rgb(212, 212, 212); /* 这将设置边框的粗细、样式和颜色 */ 
+      color: #000000; /* 默认文本颜色 */  
+    }  
+  
+    button.active {  
+      background-color: #6764ED; /* 激活后的背景颜色 */  
+      color: #ffffff; /* 激活后的文本颜色 */  
+    }  
+  </style>
+    <script>  
+        var images = ['https://officaloss.smartread.cc/smartread/images/home-three/cj/ht.jpg', 'https://officaloss.smartread.cc/smartread/images/home-three/cj/bg.jpg', 'https://officaloss.smartread.cc/smartread/images/home-three/cj/jl.jpg', 'https://officaloss.smartread.cc/smartread/images/home-three/cj/lw.jpg', 'https://officaloss.smartread.cc/smartread/images/home-three/cj/sc.jpg']; // 替换成你的图片路径  
+        var buttons = document.getElementsByTagName('button'); // 获取所有按钮元素  
+        var defaultActiveClass = 'active'; // 默认的激活状态类名  
+      
+        function changeImage(imageIndex) {  
+          // 移除所有按钮的激活状态  
+          for (var i = 0; i < buttons.length; i++) {  
+            buttons[i].classList.remove(defaultActiveClass);  
+          }  
+      
+          // 给当前按钮添加激活状态，并切换对应的图片  
+          document.getElementById('button' + imageIndex).classList.add(defaultActiveClass);  
+          document.getElementById('img1').src = images[imageIndex - 1];  
+        }  
+      </script>  
+
+
+
+
+    <title>司马阅-国产领先的AI文档分析产品，自研文档智能大模型，帮您从繁杂文档中解放出来！</title>
+
+</head>
+
+<body data-scroll-animation="true">
+
+    <div class="body_wrapper">
+        <!-- start header  -->
+        <nav class="navbar navbar-expand-lg dark_menu sticky_nav">
+            <div class="container">
+                <a class="navbar-brand" href="index.html"><img src="https://officaloss.smartread.cc/smartread/images/logo.svg" style="width:148px" alt="logo"></a>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav menu me-lg-auto">
+                       
+                        <li class="nav-item dropdown submenu">
+                            <a class="nav-link dropdown-toggle" href="#scene" role="button" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                应用场景
+                            </a>
+                           
+                        </li>
+
+
+                        <li class="nav-item dropdown submenu">
+                            <a class="nav-link dropdown-toggle" href="docmind.html" role="button" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                文档智能大模型
+                            </a>
+                            <i class="ti-angle-down mobile_dropdown_icon"></i>
+                        </li>
+
+                        <li class="nav-item dropdown submenu">
+                            <a class="nav-link dropdown-toggle" href="https://apidoc.smartread.cc/" role="button" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                开放API
+                            </a>
+                            <i class="ti-angle-down mobile_dropdown_icon"></i>
+                        </li>
+
+
+                        <li class="nav-item dropdown submenu">
+                            <a class="nav-link dropdown-toggle" href="https://smartchoose.cn/" role="button" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                企业版
+                            </a>
+                            <i class="ti-angle-down mobile_dropdown_icon"></i>
+                        </li>
+
+
+                        <li class="nav-item dropdown submenu">
+                            <a class="nav-link dropdown-toggle" href="https://hdxu.cn/fasd" role="button" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                生态业务合作
+                            </a>
+                            
+                        </li>
+
+
+
+                        <li class="nav-item dropdown submenu">
+                            <a class="nav-link dropdown-toggle" href="contact.html" role="button" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                联系我们
+                            </a>
+                            
+                        </li>
+
+                               
+                    </ul>
+                        
+                 
+                </div>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav menu me-lg-auto">
+                        <li class="nav-item dropdown submenu active">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                               
+                            </a>
+                            <i class="ti-angle-down mobile_dropdown_icon"></i>
+                            
+                        </li>
+                        
+                    </ul>
+
+                   
+
+                    <div class="nav_right">
+
+                        <a href="#" class="login_btn"> 
+                            
+                            <p class="text" >产品交流群</p>
+
+                            <div class="popup">
+                                <img src="https://officaloss.smartread.cc/smartread/images/qun.png" alt="关注司马阅">
+                            </div>
+                    
+                        </a> 
+
+
+                        <a href="https://doc.smartread.cc/" class="signup_btn hover_effect">免费使用</a>
+
+                    </div>
+
+
+                </div>
+
+
+                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span></span><span></span><span></span><span></span><span></span><span></span>
+                </button>
+            </div>
+        </nav>
+        <!-- End header  -->
+
+
+
+        <section class="qu_dashboard_banner_area" data-bg-color="#FFFAF8">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-7">
+                        <h2 class="wow fadeInLeft">
+                            国产领先的AI文档分析产品<br/>
+                            帮您从繁杂文档中解放出来<br/>
+                    </h2>
+                    </div>
+                    <div class="col-lg-5 wow fadeInRight" data-wow-delay="0.2s">
+                        <p>司马阅，是一款基于自研文档智能大模型(DocMind)开发的AI文档阅读分析产品，通过聊天互动形式，精准地从复杂文档提取并分析信息，极大节省文档阅读和检索时间及便捷获取创新灵感，高效应用于工作、学习场景，如读行业市场报告、产品手册、法律文档、论文文献、电子书等。
+                        </p>
+                        <a href="https://doc.smartread.cc/" class="theme_btn_two hover_effect mt-2">免费使用<i class="ti-arrow-right"></i></a>
+                    </div>
+                </div>
+
+               
+                <div class="qu_dashboard_img_inner text-center">
+                    <div class="qu_dashboard_img_one wow fadeInUp"><a href="https://mp.weixin.qq.com/s/EwVG6YSX4rNGgAw91ikmng"><img src="https://officaloss.smartread.cc/smartread/images/beian.png" style="width:1038px"       alt="" ></a></div>
+                    <br/>
+
+                    <div class="qu_dashboard_img_one wow fadeInUp"><a href="https://hdxu.cn/fasd"><img src="https://officaloss.smartread.cc/smartread/images/home-three/aihz.png" style="width:1038px"       alt="" ></a></div>
+                    <br/>
+                  
+                    <div class="qu_dashboard_img_one wow fadeInUp"><a href="https://smartchoose.cn/"><img src="https://officaloss.smartread.cc/smartread/images/home-three/aipro.png" style="width:1038px"       alt="" ></a></div>
+                   
+                 
+
+
+                    <br/>
+                    <div class="qu_dashboard_img_one wow fadeInUp"><a href="https://www.bilibili.com/video/BV1Zm411R7vZ/?vd_source=603706d6c5f4bd3a7da5b46481b93bbb"><img src="https://officaloss.smartread.cc/smartread/images/home-three/aipk.png" style="width:1038px"       alt="" ></a></div>
+
+                    <br/>
+
+                    <div class="qu_dashboard_img_one wow fadeInUp"><a href="https://doc.smartread.cc/"><img src="https://officaloss.smartread.cc/smartread/images/home-three/zhihu.png" style="width:1038px"       alt="" ></a></div>
+
+                    
+                </div>
+
+
+                <div class="container text-center">
+                    <h5 class="clients_logo_title mb-4 wow fadeInUp" data-wow-delay="0.2s">司马阅战略合作伙伴
+                    </h5>
+                    <div class="row">
+                        <div class="col-lg-12 d-flex text-center wow fadeInUp" data-wow-delay="0.4s">
+                            <a href="#" class="clients_logo_item">
+                                <img src="https://officaloss.smartread.cc/smartread/images/home-two/01.png" alt="">
+                            </a>
+                            <a href="#" class="clients_logo_item">
+                                <img src="https://officaloss.smartread.cc/smartread/images/home-two/02.png" alt="">
+                            </a>
+                            <a href="#" class="clients_logo_item">
+                                <img src="https://officaloss.smartread.cc/smartread/images/home-two/03.png" alt="">
+                            </a>
+                            <a href="#" class="clients_logo_item">
+                                <img src="https://officaloss.smartread.cc/smartread/images/home-two/04.png" alt="">
+                            </a>
+                         
+                        </div>
+                    </div>
+                </div>
+               <br/>
+               <br/>
+               
+
+
+                    <div class="qu_dashboard_img_inner text-center">
+                        <h5 class="fadeInUp text-center" data-wow-delay="0.2s">司马阅OpenAPI，向企业开放
+                        </h5>
+                        <div class="qu_dashboard_img_one wow fadeInUp"><img src="https://officaloss.smartread.cc/smartread/images/home-three/ai.jpg" style="width:1038px"       alt="" ></div>
+
+                        <br/>                        
+                        <div class="qu_dashboard_img_one wow fadeInUp"><a href="https://apidoc.smartread.cc/"><img src="https://officaloss.smartread.cc/smartread/images/home-three/api.png" style="width:1038px"  alt="" ></a>
+                        </div>
+
+                    </div>
+
+             
+
+
+            </div>
+        </section>
+
+
+        <section class="review_area" id=users>
+            <div class="review_slider slick_slider" data-slick='{"dots":false,"arrows":false,"slidesToShow": 4,"slidesToScroll": 1,"infinite": true, "loop": true,
+                "speed": 3000,
+                "centerMode": true,
+                "autoplay": true,
+                "autoplaySpeed": 0,
+                "adaptiveHeight": true,
+                "responsive": true,
+                "responsive": [
+                {
+                  "breakpoint": 1300,
+                  "settings": {
+                    "slidesToShow": 3
+                  }
+                },
+                {
+                  "breakpoint":1024,
+                  "settings": {
+                    "slidesToShow": 2
+                  }
+                },
+                {
+                    "breakpoint":767,
+                    "settings": {
+                      "slidesToShow": 2,
+                      "centerMode": false
+                    }
+                  },
+                  {
+                    "breakpoint":567,
+                    "settings": {
+                      "slidesToShow": 1,
+                      "centerMode": false
+                    }
+                  }
+              ]}'>
+                <div class="item">
+                    <div class="review_slider_content">
+                        <p>已经体验了，非常赞。输入了一份合同，问：有哪些对乙方不利的条款。司马阅给给出了很详细的条款注意事项。我们可以不养法务了。</p>
+                        <div class="testimonial-avater border-0 d-flex align-items-center text-start">
+                            <img src="https://officaloss.smartread.cc/smartread/images/home-one/01.png" class="rounded-circle" alt="Nguyen">
+                            <div class="ps-3">
+                                <h6>皮皮卢卢</h6>
+                                <span>广告创意机构策略总监</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="review_slider_content">
+                        <p>司马阅给出的答案更贴合真人思维方式，其答案更多是从理解的角度去分析和总结，也很诚恳地给出阅读建议，整个交互极具人性化。</p>
+                        <div class="testimonial-avater border-0 d-flex align-items-center text-start">
+                            <img src="https://officaloss.smartread.cc/smartread/images/home-one/099.png" class="rounded-circle" alt="Nguyen">
+                            <div class="ps-3">
+                                <h6>壹零社</h6>
+                                <span>科技自媒体</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="item">
+                    <div class="review_slider_content">
+                        <p> 司马阅不仅在搜集信息上表现不俗，在分析和应用信息处理新问题方面也很漂亮，比WPS强很多。</p>
+                        <div class="testimonial-avater border-0 d-flex align-items-center text-start">
+                            <img src="https://officaloss.smartread.cc/smartread/images/home-one/05.png" class="rounded-circle" alt="Nguyen">
+                            <div class="ps-3">
+                                <h6>卜庆振</h6>
+                                <span>公司高管</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="review_slider_content">
+                        <p>对录入的pdf 或者文本向量化存储，反正个人测试这么多，司马阅是超过国产的几个开源的和chatpdf。</p>
+                        <div class="testimonial-avater border-0 d-flex align-items-center text-start">
+                            <img src="https://officaloss.smartread.cc/smartread/images/home-one/06.png" class="rounded-circle" alt="Nguyen">
+                            <div class="ps-3">
+                                <h6>A.Jun</h6>
+                                <span>AI产品研究者</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="review_slider_content">
+                        <p>用司马阅看了一篇3万字的论文，确实效率很高，不用翻页不用自己提炼，又很快的抓到关键点，看论文很适合用这个。</p>
+                        <div class="testimonial-avater border-0 d-flex align-items-center text-start">
+                            <img src="https://officaloss.smartread.cc/smartread/images/home-one/02.png" class="rounded-circle" alt="Nguyen">
+                            <div class="ps-3">
+                                <h6>秦晴</h6>
+                                <span>大学老师</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="review_slider_content">
+                        <p>一个比较好的免费AI文档阅读助手，通过它可以快速整理总结PDF文档信息。老Y当年写论文的时候，如果有这神器，真是要轻松不少啊!</p>
+                        <div class="testimonial-avater border-0 d-flex align-items-center text-start">
+                            <img src="https://officaloss.smartread.cc/smartread/images/home-one/03.png" class="rounded-circle" alt="Nguyen">
+                            <div class="ps-3">
+                                <h6>老Y</h6>
+                                <span>设计领域博主</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="review_slider right_slider slick_slider" data-slick='{"dots":false,"arrows":false,"slidesToShow": 4,"slidesToScroll": 1,"infinite": true, "loop": true,
+                "speed": 3000,
+                "centerMode": true,
+                "autoplay": true,
+                "autoplaySpeed": 0,
+                "adaptiveHeight": true,
+                "rtl": true,
+                "responsive": [
+                {
+                  "breakpoint": 1300,
+                  "settings": {
+                    "slidesToShow": 3
+                  }
+                },
+                {
+                  "breakpoint":1024,
+                  "settings": {
+                    "slidesToShow": 2
+                  }
+                },
+                {
+                    "breakpoint":767,
+                    "settings": {
+                      "slidesToShow": 2,
+                      "centerMode": false
+                    }
+                  },
+                  {
+                    "breakpoint":567,
+                    "settings": {
+                      "slidesToShow": 1,
+                      "centerMode": false
+                    }
+                  }
+              ]
+                }' dir="rtl">
+                <div class="item">
+                    <div class="review_slider_content">
+                        <p>我是医生，主要用司马阅看骨科文献，我发现司马阅在一般回答方面明显优于WPS AI、chatpdf、chatdoc。</p>
+                        <div class="testimonial-avater border-0 d-flex align-items-center text-start">
+                            <img src="https://officaloss.smartread.cc/smartread/images/home-one/96.png" class="rounded-circle" alt="Nguyen">
+                            <div class="ps-3">
+                                <h6>小饼</h6>
+                                <span>医生</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="review_slider_content">
+                        <p>上传一个合同分别到司马阅和印象笔记AI，问了三个问题，司马阅的回答质量都要高于印象笔记AI。</p>
+                        <div class="testimonial-avater border-0 d-flex align-items-center text-start">
+                            <img src="https://officaloss.smartread.cc/smartread/images/home-one/99.png" class="rounded-circle" alt="Nguyen">
+                            <div class="ps-3">
+                                <h6>朱晗</h6>
+                                <span>律师</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="review_slider_content">
+                        <p>可快速分析文件关键问题并给出详细答案，阅读论文报告、领导讲话等长篇文件将会非常轻松，工作效率直接狂飙！</p>
+                        <div class="testimonial-avater border-0 d-flex align-items-center text-start">
+                            <img src="https://officaloss.smartread.cc/smartread/images/home-one/04.png" class="rounded-circle" alt="Nguyen">
+                            <div class="ps-3">
+                                <h6>纯纯干货菌</h6>
+                                <span>知识博主</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="review_slider_content">
+                        <p>司马阅完全基于文档信息，不会瞎说，反应挺快，目前审核合同的水平接近实习生的60%。</p>
+                        <div class="testimonial-avater border-0 d-flex align-items-center text-start">
+                            <img src="https://officaloss.smartread.cc/smartread/images/home-one/98.png" class="rounded-circle" alt="Nguyen">
+                            <div class="ps-3">
+                                <h6>王龙</h6>
+                                <span>法务专家</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="review_slider_content">
+                        <p>有的工作简介花里胡哨的一大堆，可以用这个司马阅AI帮你分析出对你有用的技能，非常不错的网站。</p>
+                        <div class="testimonial-avater border-0 d-flex align-items-center text-start">
+                            <img src="https://officaloss.smartread.cc/smartread/images/home-one/97.png" class="rounded-circle" alt="Nguyen">
+                            <div class="ps-3">
+                                <h6>IT熊</h6>
+                                <span>知名IT博主</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="qu_dashboard_banner_area" data-bg-color="#FFFAF8" id=scene>
+            <div class="container">
+            
+                <div class="section_title text-center">
+                    <h2 class="wow fadeInUp">司马阅应用场景</h2>
+                    <p class="wow fadeInUp" data-wow-delay="0.2s">人人必备的AI智能文档助手
+
+                    </p>
+                </div>
+               
+
+                <div class="qu_dashboard_img_inner text-center">
+                  
+                    <div class="qu_dashboard_img_one wow fadeInUp"><img src="https://officaloss.smartread.cc/smartread/images/home-three/pc.png" style="width:1038px"       alt="" ></div>
+                    
+                </div>
+
+
+                <div class="qu_dashboard_img_inner text-center" class="filter_item" >  
+                    <button id="button1" onclick="changeImage(1)">审核合同</button>  
+                    <button id="button2" onclick="changeImage(2)">分析报告</button>  
+                    <button id="button3" onclick="changeImage(3)">筛选简历</button>  
+                    <button id="button4" onclick="changeImage(4)">总结论文</button>  
+                    <button id="button5" onclick="changeImage(5)">提炼手册</button>  
+
+                    <br/> <br/>
+
+                    <div class="qu_dashboard_img_one wow fadeInUp">  
+                      <img id="img1" src="https://officaloss.smartread.cc/smartread/images/home-three/cj/ht.jpg" style="width:1038px" alt="" />  
+                    </div>  
+                 
+                  </div>  
+
+                     
+
+            </div>
+        </section>
+
+       
+        <section class="qu_features_area sec_padding" id=function>
+            <div class="container">
+                <div class="section_title text-center">
+                    <h2 class="wow fadeInUp">司马阅产品特点</h2>
+                    <p class="wow fadeInUp" data-wow-delay="0.2s">真正把文档读懂、读准，才能提供使用价值</p>
+                </div>
+                <div class="row qu_features_item align-items-center">
+                    <div class="col-lg-7">
+                        <div class="qu_features_img_box border_radius" data-bg-color="#FFFAF6">
+                            <img class="wow fadeInLeft" src="https://officaloss.smartread.cc/smartread/images/home-three/001.png" style="width:585px"  alt="features-img">
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="qu_features_content ps-5">
+                            <h3 class="wow fadeInUp">快速提取信息、智能分析</h3>
+                            <p class="wow fadeInUp" data-wow-delay="0.2s">
+                                从复杂的文档中快速提取有效信息，且智能分析判断文档内容价值：</p>
+
+                            <ul class="list-unstyled wow fadeInUp" data-wow-delay="0.2s">
+                                <li><i class="ti-check"></i>支持复杂图表文档分析总结，分析图表数据</li>
+                                <li><i class="ti-check"></i>支持PDF/DOC/DOCX/TXT/HTML/多种解析</li>
+                                <li><i class="ti-check"></i>支持100多种跨语言提问，自定义输入/输出</li>
+                                <li><i class="ti-check"></i>支持自定义专家提示词，精准分析专业文档</li>
+                            </ul>
+                            <a href="https://doc.smartread.cc/" class="theme_btn hover_effect wow fadeInUp" data-wow-delay="0.2s">免费使用</a>
+
+                            <div class="company_logo wow fadeInUp" data-wow-delay="0.2s">
+                                <a href="https://www.toolsplus.com/" class="company_logo_item">
+                                    <img src="https://officaloss.smartread.cc/smartread/images/home-one/trustpilot-logo.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row qu_features_item flex-row-reverse align-items-center">
+                    <div class="col-lg-7">
+                        <div class="qu_features_img_box border_radius text-center wow fadeInRight" data-wow-delay="0.1s"
+                            data-bg-color="#FFF9FE">
+                            <img src="https://officaloss.smartread.cc/smartread/images/home-three/002.png" style="width:585px" alt="features-img">
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="qu_features_content pe-5 wow fadeInLeft" data-wow-delay="0.3s">
+                            <h3>多文档、跨文档分析总结</h3>
+                            <p>
+                                通过跨文档分析功能，智能提炼不同文档之间的关联性和共同点，获取更全面的视角和深度理解，从而做出更明智的决策。 
+
+
+                            </p>
+                            <p>
+                                迅速而准确地处理大量文档，帮助您节省宝贵的时间和精力，且发现隐藏的见解和机会。
+
+                            </p>
+                            <ul class="list-unstyled">
+                                <li><i class="ti-check"></i>市场调研</li>
+                                <li><i class="ti-check"></i>合同管理</li>
+                                <li><i class="ti-check"></i>简历管理</li>
+                                <li><i class="ti-check"></i>论文阅读</li>
+
+                            </ul>
+                            <a href="https://doc.smartread.cc/" class="theme_btn hover_effect">免费使用</a>
+                            
+                            <div class="company_logo">
+                                <a href="integration.html" class="company_logo_item">
+                                </a>
+                           
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+        </section>
+
+
+
+           
+        <section class="qu_features_area sec_padding" id=function>
+            <div class="container">
+                <div class="section_title text-center">
+                    <h2 class="wow fadeInUp">常见问题</h2>
+                    <p class="wow fadeInUp" data-wow-delay="0.2s">更多关于司马阅</p>
+                </div>
+               
+
+  <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="qu_company_service_item">
+                            <div class="icon">
+                                <img src="https://officaloss.smartread.cc/smartread/images/career/free.svg" style="width:45px" alt="smartread">
+                            </div>
+                            <h3>司马阅可免费使用吗？</h3>
+                            <p>是的，司马阅基础功能永久免费开放给用户使用。<br>目前每天免费100次提问（单文档50次+文档库50次），满足绝大部分办公人士、学习者日常使用。</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="qu_company_service_item">
+                            <div class="icon">
+                                <img src="https://officaloss.smartread.cc/smartread/images/career/doc.svg" style="width:45px" alt="smartread">
+                            </div>
+                            <h3>司马阅支持哪些文档？</h3>
+                            <p>
+                                司马阅目前支持主流文档包括PDF/DOC/DOCX/TXT/HTML/PPT(暂不支持扫描版/图片版文档)，以及纯文本粘贴(10000字)，比如你可以粘贴公众号文章文字、工作总结文字等。更多需求
+                                               <a href="https://tomzbola2y.jiandaoyun.com/f/646f7bef6e37be000977ce9e">请点击登记。</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="qu_company_service_item">
+                            <div class="icon">
+                                <img src="https://officaloss.smartread.cc/smartread/images/career/data.svg" style="width:45px" alt="smartread">
+                            </div>
+                            <h3>文档数据安全和隐私？</h3>
+                            <p>
+                                银行级数据安全体系，加密传输，不会泄漏任何信息。您有数据唯一所有权、控制权，可任意删除任何文件。司马阅也是百度AI生态、微软合作伙伴，安全性、合规性，有保障。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="qu_company_service_item">
+                            <div class="icon">
+                                <img src="https://officaloss.smartread.cc/smartread/images/career/answer.svg" style="width:45px" alt="smartread">
+                            </div>
+                            <h3>如何提高AI回答精准度？</h3>
+                            <p>这与您提问方式以及设置提示词有关,
+                                <a href="prompt.html">推荐使用司马阅专家角色提示词。</a>
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="qu_company_service_item">
+                            <div class="icon">
+                                <img src="https://officaloss.smartread.cc/smartread/images/career/bs.svg" style="width:45px" alt="frends">
+                            </div>
+                            <h3>有哪些企业服务？</h3>
+                            <p>
+                                基于DocMind文档智能大模型的「AI数字员工、API服务、场景定制」，<br>
+                                <a href="services.html">点击了解具体企业服务。</a>
+                                
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="qu_company_service_item">
+                            <div class="icon">
+                                <img src="https://officaloss.smartread.cc/smartread/images/career/ys.svg" style="width:45px" alt="frends">
+                            </div>
+                            <h3>司马阅为何领先同行？</h3>
+                            <p>
+                                基于自研DocMind文档智能大模型，国产AI文档阅读产品测评中，司马阅VS讯飞/网易/WPS/360旗下同类AI产品，有明显优势，
+                                 <a href="https://ai.smartchoose.cn/2242.html">点击了解。</a>
+
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                            
+            
+
+
+            </div>
+        </section>
+
+
+  
+
+        <footer>
+            <div class="footer_subscribe">
+                <div class="container">
+                    <div class="footer_subscribe_inner d-flex wow fadeInUp">
+                        <div class="f_widget f_about_widget">
+                            <a href="index.html" class="f_logo mb-3">
+                                <img src="https://officaloss.smartread.cc/smartread/images/logo.svg" style="width:148px" alt="f_logo">
+                            </a>
+                            <p>
+                               司马阅，助力企业及个人进入AI时代：<br/>
+
+帮律师/商务人士分析合同的风险保护倾向。<br/>
+帮市场/研究人员总结行业报告的发展趋势。<br/>
+帮HR/团队管理者判断专业简历的技能水平。<br/>
+帮营销/产品人员提炼产品手册的关键卖点。<br/>
+帮学生/教师群体概括研究论文的核心要点。<br/>
+                                              
+                            </p>
+                        </div>
+                       
+                       
+                      
+                        <div class="col-lg-6 col-xl-5 offset-xl-1">
+                            <div class="f_list_inner f_border">
+                                <div class="f_widget f_link_widget">
+                                    <h3 class="f_title f_title_dark">关注我们:公众号</h3>
+                                    <ul class="list-unstyled link_widget dark_link">
+                                        <div class="thumb">
+                                            <img src="https://officaloss.smartread.cc/smartread/images/gh.jpg" style="height:150px" alt="司马阅官方公众号" />
+                                          </div>
+                                    </ul>
+
+                                </div>
+
+                                <div class="f_widget f_link_widget">
+                                    <h3 class="f_title f_title_dark">联系我们:反馈及合作</h3>
+                                    <ul class="list-unstyled link_widget dark_link">
+                                        <div class="thumb">
+                                            <img src="https://officaloss.smartread.cc/smartread/images/kefu.png" style="height:150px" alt="司马阅官方公众号" />
+                                          </div>
+                                    </ul>
+
+                                </div>
+
+                            
+                                <div class="f_widget f_link_widget">
+                                    <h3 class="f_title f_title_dark">战略合作伙伴</h3>
+                                    <ul class="list-unstyled link_widget dark_link">
+                                        <li><a href="#">百度文心一言</a></li>
+                                        <li><a href="#">微软Azure</a></li>
+                                        <li><a href="#">阿里云</a></li>
+                                        <li><a href="#">通义千问</a></li>
+                                    </ul>
+                                </div>
+                              
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+           
+            
+            <div class="footer_bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <p class="copy_text">© 2024 司马阅 SmartRead.cc 国产领先的AI文档分析服务商 <a href="https://beian.miit.gov.cn" style="color:rgb(141, 141, 141);">蜀ICP备2024084612号-1</a> <br>国家模型算法备案：网信算备510104225097201240011号 </p> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+    <script src="https://officaloss.smartread.cc/smartread/js/jquery-3.6.0.min.js"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+
+    <script src="https://officaloss.smartread.cc/smartread/js/popper.min.js"></script>
+    <script src="https://officaloss.smartread.cc/smartread/js/bootstrap.min.js"></script>
+    <script src="https://officaloss.smartread.cc/smartread/js/slick.min.js"></script>
+    <script src="https://officaloss.smartread.cc/smartread/js/jquery.parallax-scroll.js"></script>
+    <script src="https://officaloss.smartread.cc/smartread/js/jquery.nice-select.min.js"></script>
+    <script src="https://officaloss.smartread.cc/smartread/js/imagesloaded.pkgd.min.js"></script>
+    <script src="https://officaloss.smartread.cc/smartread/js/isotope.min.js"></script>
+    <script src="https://officaloss.smartread.cc/smartread/js/custom.js"></script>
+  
+  <script>
+        var _hmt = _hmt || [];
+        (function() {
+          var hm = document.createElement("script");
+          hm.src = "https://hm.baidu.com/hm.js?9fc524c420bdf316260587b03bfd237a";
+          var s = document.getElementsByTagName("script")[0]; 
+          s.parentNode.insertBefore(hm, s);
+        })();
+        </script>
+
+
+<script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
+<script>LA.init({id:"3FMlcB0nmwWmiVX9",ck:"3FMlcB0nmwWmiVX9",autoTrack:true,hashMode:true})</script>
+
+        
+</body>
+
+</html>

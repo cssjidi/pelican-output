@@ -1,0 +1,57 @@
+@font-face {
+  font-family: "io"; /* Project id 2811503 */
+  /* Color fonts */
+  src: 
+       url('//at.alicdn.com/t/font_2811503_rz4zraeosal.woff2?t=1631599910843') format('woff2'),
+       url('//at.alicdn.com/t/font_2811503_rz4zraeosal.woff?t=1631599910843') format('woff'),
+       url('//at.alicdn.com/t/font_2811503_rz4zraeosal.ttf?t=1631599910843') format('truetype');
+}
+
+.io {
+  font-family: "io" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.io-caisejisuan:before {
+  content: "\e654";
+}
+
+.io-caisewuli:before {
+  content: "\e655";
+}
+
+.io-caisetianwenwangyuanjing:before {
+  content: "\e656";
+}
+
+.io-caisewenti:before {
+  content: "\e657";
+}
+
+.io-caiseshuben:before {
+  content: "\e658";
+}
+
+.io-ico_game:before {
+  content: "\e62c";
+}
+
+.io-ico_trip:before {
+  content: "\e63c";
+}
+
+.io-caise:before {
+  content: "\e7cf";
+}
+
+.io-caise1:before {
+  content: "\e7d5";
+}
+
+.io-caise2:before {
+  content: "\e7e8";
+}
+

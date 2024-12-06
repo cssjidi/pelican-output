@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-CN" prefix="og: http://ogp.me/ns#">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta name="referrer" content="no-referrer" />
+    <meta property="og:title" content="万知 I 问答、阅读、创作的一站式AI工作平台" />
+    <meta property="og:image" content="https://wanzhi-static.oss-cn-wulanchabu.aliyuncs.com/logo/wanzhi-logo.svg" />
+    <meta property="og:image:width" content="100" />
+    <meta property="og:image:height" content="100" />
+    <meta property="og:image:type" content="image/svg+xml" />
+    <meta property="og:url" content="https://www.wanzhi.com" />
+    <meta property="og:locale" content="zh-CN" />
+    <meta property="og:type" content="website" />
+    <title>万知 I 问答、阅读、创作的一站式AI工作平台</title>
+    <link rel="stylesheet" href="/iconfont.css" />
+    <script type="module" crossorigin src="/assets/main-5568a091.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/__commonjsHelpers__-de833af9.js">
+    <link rel="modulepreload" crossorigin href="/assets/tools-vendor-e2b18aa5.js">
+    <link rel="modulepreload" crossorigin href="/assets/r-vendor-67b909cb.js">
+    <link rel="modulepreload" crossorigin href="/assets/ui-vendor-ccb17409.js">
+    <link rel="modulepreload" crossorigin href="/assets/index-18de2ce5.js">
+    <link rel="modulepreload" crossorigin href="/assets/wb-vender-b164d27d.js">
+    <link rel="modulepreload" crossorigin href="/assets/index-9494d223.js">
+    <link rel="modulepreload" crossorigin href="/assets/eruda-vendor-6c269f6a.js">
+    <link rel="stylesheet" href="/assets/index-03f16bc6.css">
+    <link rel="stylesheet" href="/assets/wb-vender-6272c7c2.css">
+    <link rel="stylesheet" href="/assets/index-9fe4a39f.css">
+    <link rel="stylesheet" href="/assets/index-9fedba67.css">
+    <script type="module">import.meta.url;import("_").catch(()=>1);async function* g(){};if(location.protocol!="file:"){window.__vite_is_modern_browser=true}</script>
+    <script type="module">!function(){if(window.__vite_is_modern_browser)return;console.warn("vite: loading legacy chunks, syntax error above and the same error below should be ignored");var e=document.getElementById("vite-legacy-polyfill"),n=document.createElement("script");n.src=e.src,n.onload=function(){System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))},document.body.appendChild(n)}();</script>
+  </head>
+
+  <body class="ignore">
+    <div id="root"></div>
+    
+    <script src="/dfxaf3-shanghai.js"></script>
+    <script nomodule>!function(){var e=document,t=e.createElement("script");if(!("noModule"in t)&&"onbeforeload"in t){var n=!1;e.addEventListener("beforeload",(function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute("nomodule")||!n)return;e.preventDefault()}),!0),t.type="module",t.src=".",e.head.appendChild(t),t.remove()}}();</script>
+    <script nomodule crossorigin id="vite-legacy-polyfill" src="/assets/polyfills-legacy-42d97a4b.js"></script>
+    <script nomodule crossorigin id="vite-legacy-entry" data-src="/assets/main-legacy-4f14866f.js">System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))</script>
+  </body>
+</html>

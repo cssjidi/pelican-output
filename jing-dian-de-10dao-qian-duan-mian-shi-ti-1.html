@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en" class="io-white-mode">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="renderer" content="webkit">
+    <meta name="force-rendering" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=0.0, viewport-fit=cover" />
+    <title>CK资讯网 | 经典的10道前端面试题（1）</title>
+    <meta name="theme-color" content="#f9f9f9">
+    <link rel="shortcut icon" href="http://localhost:8000/theme/images/favicon.ico">
+
+    <link rel="stylesheet" id="bootstrap-css" href="http://localhost:8000/theme/css/bootstrap.min.css"
+        type="text/css" media="all">
+    <link rel="stylesheet" id="swiper-css" href="http://localhost:8000/theme/css/swiper-bundle.min.css"
+        type="text/css" media="all">
+    <link rel="stylesheet" id="lightbox-css" href="http://localhost:8000/theme/css/jquery.fancybox.min.css"
+        type="text/css" media="all">
+    <link rel="stylesheet" id="iconfont-css" href="http://localhost:8000/theme/css/iconfont.css"
+        type="text/css" media="all">
+    <link rel="stylesheet" id="iconfont-io-0-css" href="http://localhost:8000/theme/css/io-0.css"
+        type="text/css" media="all">
+    <link rel="stylesheet" id="iconfont-io-1-css" href="http://localhost:8000/theme/css/io-1.css"
+        type="text/css" media="all">
+    <link rel="stylesheet" id="main-css" href="http://localhost:8000/theme/css/main.min.css" type="text/css"
+        media="all">
+
+    <script type="text/javascript" src="http://localhost:8000/theme/js/jquery.min.js" id="jquery-js"></script>
+    <script>
+        var __default_c = "io-grey-mode";
+        var __night = document.cookie.replace(/(?:(?:^|.*;\s*)io_night_mode\s*\=\s*([^;]*).*$)|^.*$/, "$1");
+        try {
+            if (__night === "0" || (!__night && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
+                document.documentElement.classList.add("io-black-mode");
+            }
+        } catch (_) {}
+    </script>
+<style>
+    :root {
+        --main-aside-basis-width: 200px;
+        --home-max-width: 1620px;
+        --main-radius: 12px;
+        --main-max-width: 1260px;
+    }
+
+    .navbar-nav .menu-item-286 a {
+        background: #ff8116;
+        border-radius: 50px !important;
+        padding: 5px 10px !important;
+        margin: 5px 0 !important;
+        color: #fff !important;
+    }
+
+    .navbar-nav .menu-item-286 a i {
+        position: absolute;
+        top: 0;
+        right: -10px;
+        color: #f13522;
+    }
+
+    .io-black-mode .navbar-nav .menu-item-286 a {
+        background: #ce9412;
+    }
+
+    .io-black-mode .navbar-nav .menu-item-286 a i {
+        color: #fff;
+    }
+</style>
+    
+    <script src="http://localhost:8000/theme/js/lazyload.min.js"></script>
+    <script src="http://localhost:8000/theme/js/theia-sticky-sidebar.js"></script>
+    <style id="theia-sticky-sidebar-stylesheet-TSS">
+        .theiaStickySidebar:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+    </style>
+</head>
+
+<body class="home blog container-body aside-show">
+    <header class="main-header header-fixed scroll">
+        <div class="header-nav blur-bg">
+            <nav
+                class="switch-container container-header nav-top header-center d-flex align-items-center h-100 container">
+                <div class="navbar-logo more-menu-logo">
+                    <h1 class="text-hide position-absolute">CK资讯网</h1>
+                    <a href="http://localhost:8000" class="logo-expanded">
+                        <img src="http://localhost:8000/theme/images/logo.svg" height="36" alt="CK资讯网"></a>
+                </div>
+                <div class="navbar-header-menu">
+                    <ul class="nav navbar-header d-none d-md-flex mr-3">
+                        <li id="menu-item-1"
+                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1">
+                            <a href="https://css9.com/" target="_blank">
+                                <i class="io io-wordpress icon-fw icon-lg mr-2"></i>
+                                <span>博客</span>
+                            </a>
+                        </li>
+                        <li id="menu-item-2"
+                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2">
+                            <a href="https://css9.com/" target="_self">
+                                <i class="iconfont icon-chart icon-fw icon-lg mr-2"></i>
+                                <span>今日热点</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="flex-fill"></div>
+                <div class="d-block d-md-none menu-btn" data-toggle-div="" data-target=".mobile-nav"
+                    data-class="is-mobile" aria-expanded="false"><span class="menu-bar"></span><span
+                        class="menu-bar"></span><span class="menu-bar"></span></div>
+            </nav>
+        </div>
+    </header>
+    <div class="mobile-header">
+        <nav class="mobile-nav">
+            <ul class="menu-nav mb-4">
+                <li id="menu-item-1"
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1">
+                    <a href="https://css9.com/" target="_blank">
+                        <i class="io io-wordpress icon-fw icon-lg mr-2"></i>
+                        <span>博客</span>
+                    </a>
+                </li>
+                <li id="menu-item-2"
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2">
+                    <a href="https://css9.com/" target="_self">
+                        <i class="iconfont icon-chart icon-fw icon-lg mr-2"></i>
+                        <span>今日热点</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+<main role="main" class="container my-2">
+<nav class="text-xs mb-3 mb-md-4" aria-label="breadcrumb">
+    <i class="iconfont icon-home"></i>
+    <a class="crumbs" href="http://localhost:8000/">首页</a>
+      3
+        <i class="text-color vc-theme px-1">•</i>
+        <a href="http://localhost:8000/category/misc.html">misc</a>
+        <i class="text-color vc-theme px-1">•</i>
+        <span>经典的10道前端面试题（1）</span>
+</nav>    <div class="content">
+        <div class="content-wrap">
+            <div class="content-layout">
+                <div class="panel card">
+                    <div class="card-body">
+                        <div class="panel-header mb-4">
+                            <h1 class="h3 mb-3">经典的10道前端面试题（1）</h1>
+                            <div class="d-flex flex-fill text-muted text-sm pb-4 border-bottom border-color"><span
+                                    class="mr-3 d-none d-sm-block">
+                                    <a href="http://localhost:8000/category/misc.html"><i
+                                            class="iconfont icon-folder2"></i> misc</a></span><span class="mr-3"><i
+                                        class="iconfont icon-time-o"></i><span
+                                        title="4月 18, 2023发布">4月 18, 2023发布</span></span><span
+                                    class="mr-3 d-none d-md-block"><a href="https://nav.iowen.cn/author/1" title=""><i
+                                            class="iconfont icon-user"></i> </a></span>
+                                <div class="flex-fill"></div>
+                            </div>
+                        </div>
+                        <div class="panel-body single mt-2">
+                            <h2>什么是盒子模型（Box Model）？盒子模型有哪些部分？<!--more--></h2>
+<p>盒子模型是用于计算元素在页面上占据空间的一种方式，它将每个元素表示为一个矩形框，该框由四个部分组成：内容区域（content）、填充区域（padding）、边框区域（border）和外边距区域（margin）。</p>
+<p>如何清除浮动（clear float）？为什么要清除浮动？
+在HTML/CSS中，当元素使用浮动（float）属性时，可能会导致包含该元素的父元素无法正确计算其高度和位置。为了避免这种情况，需要使用清除浮动的方法，例如在包含浮动元素的父元素中添加clear: both;属性。这样可以使父元素重新计算高度和位置，以适应其内容。</p>
+<h2>如何垂直居中一个元素？请至少提供两种不同的方法。</h2>
+<p>垂直居中一个元素是前端开发中的一个常见问题，以下是两种可能的解决方法：</p>
+<p>使用Flexbox布局（CSS3）：将容器元素的display属性设置为flex，并使用align-items: center;属性将其子元素垂直居中。
+使用表格布局（table-cell）：将容器元素的display属性设置为table，并将其子元素的display属性设置为table-cell。然后使用vertical-align: middle;属性将子元素垂直居中。</p>
+<h2>什么是响应式设计（Responsive Design）？如何实现响应式设计？</h2>
+<p>响应式设计（Responsive Design）是指一种网页设计技术，它可以让网页的布局和内容在不同设备上以最佳的方式呈现，从而提高用户体验和可用性。响应式设计可以适应不同屏幕尺寸、分辨率和设备类型，如桌面电脑、平板电脑、手机等。</p>
+<p>实现响应式设计的方法通常有两种：媒体查询和弹性网格布局。</p>
+<h2>媒体查询（Media Queries）</h2>
+<p>媒体查询是一种CSS3的技术，它可以根据设备的特性（如屏幕尺寸、分辨率、设备方向等）来动态地改变网页的布局和样式。通过媒体查询，我们可以定义不同屏幕大小下的CSS样式，从而实现响应式设计。例如：</p>
+<div class="highlight"><pre><span></span><code><span class="p">@</span><span class="k">media</span><span class="w"> </span><span class="nt">screen</span><span class="w"> </span><span class="nt">and</span><span class="w"> </span><span class="o">(</span><span class="nt">max-width</span><span class="o">:</span><span class="w"> </span><span class="nt">768px</span><span class="o">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">  </span><span class="c">/* 当屏幕宽度小于等于768px时应用以下样式 */</span>
+<span class="w">  </span><span class="p">.</span><span class="nc">container</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">width</span><span class="p">:</span><span class="w"> </span><span class="mi">100</span><span class="kt">%</span><span class="p">;</span>
+<span class="w">    </span><span class="k">padding</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<span class="w">  </span><span class="p">}</span>
+<span class="w">  </span><span class="p">.</span><span class="nc">menu</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">display</span><span class="p">:</span><span class="w"> </span><span class="kc">none</span><span class="p">;</span>
+<span class="w">  </span><span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+
+<h2>弹性网格布局（Flexible Grid Layout）</h2>
+<p>弹性网格布局是一种基于CSS3的网页布局技术，它通过使用弹性盒子（flexbox）和网格布局（grid）等技术，可以在不同设备上实现弹性的、自适应的网页布局。与传统的固定网格布局不同，弹性网格布局可以根据设备的屏幕尺寸和方向，动态地调整网页的布局和排版。例如：</p>
+<div class="highlight"><pre><span></span><code><span class="p">.</span><span class="nc">container</span><span class="w"> </span><span class="p">{</span>
+<span class="w">  </span><span class="k">display</span><span class="p">:</span><span class="w"> </span><span class="kc">flex</span><span class="p">;</span>
+<span class="w">  </span><span class="k">flex-wrap</span><span class="p">:</span><span class="w"> </span><span class="kc">wrap</span><span class="p">;</span>
+<span class="w">  </span><span class="k">justify-content</span><span class="p">:</span><span class="w"> </span><span class="kc">space-between</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="p">.</span><span class="nc">item</span><span class="w"> </span><span class="p">{</span>
+<span class="w">  </span><span class="k">flex</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="w"> </span><span class="mi">0</span><span class="w"> </span><span class="mi">30</span><span class="kt">%</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+
+<p>这段代码将.container元素设置为一个弹性盒子，并将子元素（.item）的flex属性设置为1 0 30%，表示子元素可以根据需要自动调整宽度，最小宽度为0，最大宽度为30%。</p>
+<h2>什么是闭包（Closure）？请举例说明闭包的应用场景。</h2>
+<p>闭包是指在JavaScript中，一个函数可以访问其外部函数作用域内的变量和函数，即使在外部函数已经执行完毕后仍然可以访问。这种行为是因为JavaScript中的函数是一等公民，可以作为值进行传递和引用。</p>
+<p>闭包的应用场景包括但不限于以下几个方面：</p>
+<p>用于模块化代码，可以将变量和函数作为私有成员，以避免全局作用域的污染。
+用于异步编程，可以在回调函数中保留当前作用域内的状态，以便在异步操作完成后继续使用。
+用于延迟函数执行，可以在函数内部创建一个新的函数，以便在后续调用时使用之前的变量和状态。</p>
+<h2>什么是事件冒泡（Event Bubbling）和事件捕获（Event Capturing）？它们有什么区别？</h2>
+<p>事件冒泡和事件捕获是两种用于处理DOM事件的机制。事件冒泡是从事件目标元素开始，逐级向上传递，直到到达DOM树的根节点。事件捕获则是从DOM树的根节点开始，逐级向下传递，直到到达事件目标元素。</p>
+<p>事件冒泡和事件捕获的区别在于它们处理事件的顺序。在事件冒泡机制中，事件会先在最内部的元素上触发，然后逐级向上传递，直到到达最外层的元素。在事件捕获机制中，则是从最外层的元素开始触发，然后逐级向下传递，直到到达最内层的元素。</p>
+<h2>什么是原型（Prototype）？请简要说明原型继承（Prototype Inheritance）的原理。</h2>
+<p>原型是JavaScript中用于实现继承的机制，它是每个JavaScript对象都具有的一个内部属性。原型可以理解为对象之间的一种关系，当对象需要访问某个属性或方法时，如果本身没有该属性或方法，就会在其原型对象上查找，以递归地实现继承关系。</p>
+<p>原型继承的原理可以简要概括为以下几个步骤：</p>
+<p>当一个对象需要访问某个属性或方法时，如果本身没有该属性或方法，就会在其原型对象上查找。</p>
+<p>如果原型对象上也没有该属性或方法，就会继续在原型对象的原型对象上查找，直到找到Object.prototype为止。
+如果最终仍然没有找到该属性或方法，则返回undefined。
+原型继承的优点在于可以简化代码，避免重复定义相同的属性或方法，同时也方便了代码的维护和扩展。然而，需要注意的是原型继承也可能会带来一些问题，比如可能会造成属性或方法的共享，导致一些不必要的副作用。</p>
+<h2>请解释一下React中的生命周期方法及其执行顺序。</h2>
+<p>React中的生命周期方法指的是组件在不同阶段会自动调用的一系列方法，可以在这些方法中进行一些必要的操作，例如组件初始化、数据加载、状态更新等。</p>
+<p>React中的生命周期方法包括：</p>
+<p>constructor：组件构造函数，用于初始化组件的状态和属性，只会执行一次。
+getDerivedStateFromProps：根据新的属性计算并返回新的状态值，该方法会在组件初始化时和每次更新时都会被调用。
+shouldComponentUpdate：返回一个布尔值，用于控制组件是否需要更新，可以通过该方法进行性能优化。
+render：根据组件的状态和属性，返回一个React元素，表示组件在DOM上的渲染形式。
+componentDidMount：组件挂载完成后被调用，可以在该方法中进行DOM操作、数据请求等操作。
+getSnapshotBeforeUpdate：在组件更新前获取一些DOM信息，通常和componentDidUpdate一起使用。
+componentDidUpdate：组件更新后被调用，可以在该方法中进行DOM操作、数据请求等操作。
+componentWillUnmount：组件卸载时被调用，可以在该方法中进行清理操作，例如取消订阅、清除定时器等。
+React中的生命周期方法执行顺序如下：</p>
+<p>constructor
+getDerivedStateFromProps
+shouldComponentUpdate
+render
+componentDidMount
+getSnapshotBeforeUpdate
+componentDidUpdate
+componentWillUnmount
+其中，前五个方法是组件初始化和挂载阶段的生命周期方法，后三个方法是组件更新和卸载阶段的生命周期方法。在实际开发中，需要根据具体情况选择合适的生命周期方法，进行相应的操作。</p>
+<h2>请简述一下React中的状态管理方法，包括状态提升和Context。</h2>
+<p>React中的状态管理方法主要包括状态提升和Context。</p>
+<p>状态提升指的是将多个组件之间共享的状态提升到它们的共同父组件中管理，通过props将状态传递给子组件，从而实现状态共享。状态提升可以避免多个组件之间状态同步的问题，提高了代码的可维护性和可读性。</p>
+<p>Context是React提供的一种跨组件层级共享数据的方法，可以避免通过props一层层传递数据的繁琐操作，提高了组件之间共享数据的灵活性。Context提供了两个主要的组件：Provider和Consumer。Provider用于提供数据，而Consumer用于消费数据。通过使用Context，可以将需要共享的数据提供给多个组件，从而实现跨层级的数据共享。</p>
+<p>在实际开发中，需要根据具体的业务场景选择合适的状态管理方法。通常情况下，如果状态只在组件内部使用，可以使用组件自身的状态管理；如果多个组件需要共享状态，可以使用状态提升；如果需要实现跨组件层级共享数据，可以使用Context。</p>
+                        </div>
+                        <div class="post-tags my-3">
+<a href="http://localhost:8000/tag/html.html"
+    class="btn btn-sm text-height-xs m-1 rounded-pill text-xs" rel="tag">
+    # HTML
+</a>
+<a href="http://localhost:8000/tag/css.html"
+    class="btn btn-sm text-height-xs m-1 rounded-pill text-xs" rel="tag">
+    # CSS
+</a>
+<a href="http://localhost:8000/tag/qian-duan-mian-shi.html"
+    class="btn btn-sm text-height-xs m-1 rounded-pill text-xs" rel="tag">
+    # 前端面试
+</a>
+
+                        </div>
+                        <div class="text-xs text-muted">
+                            <div><span>©</span> 版权声明</div>
+                            <div class="posts-copyright">文章版权归作者所有，未经允许请勿转载。</div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+<div class="near-navigation rounded mt-4 mb-2">
+    <div class="nav none border-left border-color" style="text-align: left;">
+        <span>上一篇</span>
+        <h4 class="near-title">没有更多了...</h4>    
+    </div>
+
+    <div class="nav next border-left border-color">
+        <a class="near-permalink" href="http://localhost:8000/jing-dian-de-10dao-qian-duan-mian-shi-ti-2.html">
+            <span>下一篇</span>
+            <h4 class="near-title">经典的10道前端面试题（2）</h4>
+        </a>
+    </div>
+</div>
+
+                
+<h4 class="text-gray text-lg my-4"><i class="site-tag iconfont icon-book icon-lg mr-1"></i>相关文章</h4>
+<div class="posts-row mb-2">
+    <article class="posts-item post-item d-flex style-post-card post-1252 col-2a col-md-4a">
+        <div class="item-header">
+            <div class="item-media">
+                <a class="item-image" href="http://localhost:8000/jing-dian-de-10dao-qian-duan-mian-shi-ti-2.html">
+                    <img class="fill-cover lazy unfancybox entered loaded loadafter"
+                        src="https://nav.iowen.cn/wp-content/uploads/2022/12/2b167-c910-64bc3aacfd0fc8d91151a6089ac9fd84.png"
+                        data-src="https://nav.iowen.cn/wp-content/uploads/2022/12/2b167-c910-64bc3aacfd0fc8d91151a6089ac9fd84.png"
+                        height="auto" width="auto" alt="经典的10道前端面试题（2）" data-ll-status="loaded">
+                </a>
+            </div>
+        </div>
+        <div class="item-body d-flex flex-column flex-fill">
+            <h3 class="item-title line2">
+                <a href="http://localhost:8000/jing-dian-de-10dao-qian-duan-mian-shi-ti-2.html"
+                    title="经典的10道前端面试题（2）">经典的10道前端面试题（2）</a>
+            </h3>
+            <div class="mt-auto">
+                <div class="item-tags overflow-x-auto no-scrollbar">
+
+                </div>
+                <div class="item-meta d-flex align-items-center flex-fill text-muted text-xs">
+                    <div class="meta-left">
+                        <span title="2022-12-09 18:56:54"
+                            class="meta-time">4月 18, 2023发布</span></div>
+                    <div class="ml-auto meta-right">
+                        <span class="meta-comm d-none d-md-inline-block" data-toggle="tooltip" title=""
+                            js-href="#comments" data-original-title="去评论">
+                            <i class="iconfont icon-comment"></i>0</span><span class="meta-view"><i
+                                class="iconfont icon-chakan-line"></i>569</span>
+                        <span class="meta-like d-none d-md-inline-block"><i class="iconfont icon-like-line"></i>0</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+</div>
+<div id="comments" class="comments">
+    <div class="card">
+        <div class="card-body">
+            <h2 id="comments-list-title" class="comments-title text-lg mx-1 my-4">
+                <i class="iconfont icon-comment"></i>
+                <span class="noticom">
+                    <span class="comments-title">暂无评论</a>
+                </span>
+            </h2>
+            <!--PC和WAP自适应版-->
+            <div id="SOHUCS" sid="请将此处替换为配置SourceID的语句"></div>
+            <script type="text/javascript">
+                (function () {
+                    var appid = 'cywDdmdvt';
+                    var conf = 'prod_4c0d74f955ea6142fb14a0ac0c723c77';
+                    var width = window.innerWidth || document.documentElement.clientWidth;
+                    if (width < 1000) {
+                        var head = document.getElementsByTagName('head')[0] || document.head || document
+                            .documentElement;
+                        var script = document.createElement('script');
+                        script.type = 'text/javascript';
+                        script.charset = 'utf-8';
+                        script.id = 'changyan_mobile_js';
+                        script.src =
+                            'https://cy-cdn.kuaizhan.com/upload/mobile/wap-js/changyan_mobile.js?client_id=' +
+                            appid + '&conf=' + conf;
+                        head.appendChild(script);
+                    } else {
+                        var loadJs = function (d, a) {
+                            var c = document.getElementsByTagName("head")[0] || document.head || document
+                                .documentElement;
+                            var b = document.createElement("script");
+                            b.setAttribute("type", "text/javascript");
+                            b.setAttribute("charset", "UTF-8");
+                            b.setAttribute("src", d);
+                            if (typeof a === "function") {
+                                if (window.attachEvent) {
+                                    b.onreadystatechange = function () {
+                                        var e = b.readyState;
+                                        if (e === "loaded" || e === "complete") {
+                                            b.onreadystatechange = null;
+                                            a()
+                                        }
+                                    }
+                                } else {
+                                    b.onload = a
+                                }
+                            }
+                            c.appendChild(b)
+                        };
+                        loadJs("https://cy-cdn.kuaizhan.com/upload/changyan.js", function () {
+                            window.changyan.api.config({
+                                appid: appid,
+                                conf: conf
+                            })
+                        });
+                    }
+                })();
+            </script>
+        </div>
+    </div>
+</div>            </div>
+        </div>
+    </div>
+</main>
+<footer class="main-footer footer-stick" style="">
+    <div class="switch-container container-footer container">
+        <div class="footer row pt-5 text-center text-md-left">
+            <div class="col-12 col-md-4 mb-4 mb-md-0"><a href="https://nav.iowen.cn"
+                    class="logo-expanded footer-logo"><img src="http://localhost:8000/theme/images/logo.svg" height="40" alt="CK资讯网"></a>
+                <div class="text-sm mt-4">OneNav 一为导航主题，集网址、资源、资讯于一体的 WordPress 导航主题，简约优雅的设计风格，全面的前端用户功能，简单的模块化配置，欢迎您的体验</div>
+                <div class="footer-social mt-3">
+                        
+<a class="social-btn bg-l" href="javascript:;" data-toggle="tooltip" data-placement="top" data-html="true" title="" rel="external noopener nofollow"
+ data-original-title="<img src=&quot;https://nav.iowen.cn/wp-content/themes/onenav/assets/images/wechat_qrcode.png&quot; height=&quot;100&quot; width=&quot;100&quot;>">
+ <i class="iconfont icon-wechat"></i></a><a class="social-btn bg-l" href="http://wpa.qq.com/msgrd?v=3&amp;uin=2227098556&amp;site=qq&amp;menu=yes" 
+ target="_blank" data-toggle="tooltip" data-placement="top" title="" rel="external noopener nofollow" data-original-title="QQ"><i class="iconfont icon-qq">
+ </i></a>
+ <a class="social-btn bg-l" href="https://www.iotheme.cn" target="_blank" data-toggle="tooltip" data-placement="top" title="" rel="external noopener nofollow"
+   data-original-title="微博" aria-describedby="tooltip7928"><i class="iconfont icon-weibo"></i></a>
+   <a class="social-btn bg-l" href="https://www.iotheme.cn" target="_blank" data-toggle="tooltip" data-placement="top" title="" rel="external noopener nofollow" data-original-title="GitHub">
+   <i class="iconfont icon-github"></i></a>
+   <a class="social-btn bg-l" href="mailto:1234567788@QQ.COM" target="_blank" data-toggle="tooltip" data-placement="top" title="" rel="external noopener nofollow" data-original-title="Email">
+   <i class="iconfont icon-email"></i></a>
+ <a class="social-btn bg-l" href="https://www.iotheme.cn" target="_blank" data-toggle="tooltip" data-placement="top" title="" rel="external noopener nofollow"
+   data-original-title="微博" aria-describedby="tooltip7928"><i class="iconfont icon-weibo"></i></a>
+   <a class="social-btn bg-l" href="https://www.iotheme.cn" target="_blank" data-toggle="tooltip" data-placement="top" title="" rel="external noopener nofollow" data-original-title="GitHub">
+   <i class="iconfont icon-github"></i></a>
+   <a class="social-btn bg-l" href="mailto:1234567788@QQ.COM" target="_blank" data-toggle="tooltip" data-placement="top" title="" rel="external noopener nofollow" data-original-title="Email">
+   <i class="iconfont icon-email"></i></a>
+
+                </div>
+            </div>
+            <div class="col-12 col-md-5 my-4 my-md-0">
+                <p class="footer-links text-sm mb-3">
+                        <a href="https://css9.com/" target="_blank">css博客</a>
+                        <a href="https://765ai.com/" target="_blank">765AI导航</a>
+                </p>
+            </div>
+            <div class="col-12 col-md-3 text-md-right mb-4 mb-md-0">
+                    
+<div class="footer-mini-img text-center" data-toggle="tooltip" title="" data-original-title="扫码加QQ群">
+<div class="bg-l br-md p-1"><img class=" " src="https://nav.iowen.cn/wp-content/themes/onenav/assets/images/qr.png" alt="扫码加QQ群一为导航">
+</div><span class="text-muted text-xs mt-2">扫码加QQ群</span></div>
+<div class="footer-mini-img text-center" data-toggle="tooltip" title="" data-original-title="扫码加微信"><div class="bg-l br-md p-1">
+<img class=" " src="https://nav.iowen.cn/wp-content/themes/onenav/assets/images/qr.png" alt="扫码加微信一为导航">
+</div><span class="text-muted text-xs mt-2">扫码加微信</span></div>
+
+            </div>
+            <div class="footer-copyright m-3 text-xs">
+                Copyright ©2024 by css9
+            </div>
+        </div>
+    </div>
+</footer>
+    <div class="tools-left io-footer-tools">
+        <div class="btn-tools btn-show-side my-1" data-toggle-div="" data-target="#layout_aside" data-class="is-mobile">
+            <i class="iconfont icon-expand"></i></div>
+    </div>
+    <div id="footer-tools" class="tools-right io-footer-tools d-flex flex-column">
+        <a href="javascript:" class="btn-tools go-to-up go-up my-1" rel="go-up">
+            <i class="iconfont icon-to-up"></i>
+        </a>
+        <a class="btn-tools custom-tool0 my-1 qr-img" href="javascript:;" data-toggle="tooltip" data-html="true"
+            data-placement="left" title=""
+            data-original-title="<img src='http://localhost:8000/theme/images/wechat_qrcode.jpg' height='100' width='100'>">
+            <i class="iconfont icon-wechat"></i>
+        </a>
+        <a class="btn-tools custom-tool1 my-1"
+            href="http://wpa.qq.com/msgrd?v=3&amp;uin=2227098556&amp;site=qq&amp;menu=yes" target="_blank"
+            data-toggle="tooltip" data-placement="left" title="" rel="external noopener nofollow"
+            data-original-title="QQ">
+            <i class="iconfont icon-qq"></i>
+        </a>
+        <a href="javascript:" class="btn-tools switch-dark-mode my-1" data-toggle="tooltip" data-placement="left"
+            title="" data-original-title="夜间模式">
+            <i class="mode-ico iconfont icon-night"></i>
+        </a>
+    </div>
+
+    <script type="text/javascript" src="http://localhost:8000/theme/js/bootstrap.bundle.min.js"
+        id="bootstrap-js-js"></script>
+    <script src="http://localhost:8000/theme/js/main.js"></script>
+    <div class="fixed-body"></div>
+</body>
+
+</html>
